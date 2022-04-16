@@ -1,4 +1,4 @@
-
+[![Node.js CI][ci-img]][ci]
 [![Build status — Travis-CI][travis-icon]][travis-ci]
 [![Jekyll][jekyll-icon]][jekyll]
 [![Prose.io][prose-icon]][prose.io]
@@ -36,7 +36,7 @@ npm start
 
 
 ---
-© 2009-2021 Nick Freear.
+© 2009-2022 Nick Freear.
 
 *  All content in `_posts`, `_pages` & other Markdown/HTML pages (`*.md`, `*.markdown`, `*.html`) are
    released under a [Creative Commons Attribution-ShareAlike 4.0 International License ![CC by-sa][cc-icon]][cc]
@@ -69,6 +69,8 @@ npm start
 [tom]: https://github.com/mojombo/mojombo.github.io
 [travis-icon]: https://travis-ci.org/nfreear/nfreear.github.io.svg?branch=master
 [travis-ci]: https://travis-ci.org/nfreear/nfreear.github.io "Build status – Travis-CI"
+[ci]: https://github.com/nfreear/nfreear-blog/actions/workflows/node.js.yml
+[ci-img]: https://github.com/nfreear/nfreear-blog/actions/workflows/node.js.yml/badge.svg
 
 [pa11y-ci]: https://github.com/pa11y/pa11y-ci
     "Automated accessibility testing - via 'pa11y-ci'"
