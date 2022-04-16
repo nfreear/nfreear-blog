@@ -11,6 +11,7 @@ x-footer-script: https://unpkg.com/github-widget@1.0.0/dist/bootstrap-github-wid
 
 You can find me all over the Web &hellip; :
 
+* [International Association of Accessibility Professionals][iaap]
 * [Profile at The Open University][iet]
 * [Facebook](https://fb.com/nick.freear)
 * [LinkedIn](https://linkedin.com/in/nfreear/)
@@ -59,7 +60,9 @@ You can find me all over the Web &hellip; :
 
 <div data-toggle="github-widget" data-user="nfreear" data-limit="5" data-body="auto" data-footer="auto"></div>
 
-[iet]: https://iet.open.ac.uk/people/nick.freear
+[iaap]: https://www.accessibilityassociation.org/s/cpacc-certificants#:~:text=Freear
+  "Certified Professional in Accessibility Core Competencies (CPACC)"
+[iet]: https://web.archive.org/web/20210427202138/https://iet.open.ac.uk/people/nick.freear
   "Profile in the Institute of Educational Technology (IET), at The Open University"
 [ou]: http://www.open.ac.uk/people/ndf42 "Profile at, The Open University"
 [iet-OLD]: http://iet.open.ac.uk/people/n.d.freear
