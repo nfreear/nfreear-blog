@@ -36,14 +36,16 @@
         </span>
         {% endif %}
 
-        {% if site.ex_atbar %}
+        <my-atbar-button pos="inline"></my-atbar-button>
+
+        {% comment %}{% if site.ex_atbar %}
         <a class="atbar-launch" id="toolbar-launch" role="button" title=
         "Launch ATbar to adjust this webpage, have it read aloud and other functions." href=
         "javascript:(function(){d=document;jf=d.createElement('script');
  jf.src='https://core.atbar.org/atbar/en/latest/atbar.min.js';
  jf.type='text/javascript';jf.id='ToolBar';d.getElementsByTagName('head')[0].appendChild(jf);})();"
         ><img src="/assets/atbar.org-launcher.png" data-src="https://core.atbar.org/resources/img/launcher.png" alt="ATbar"></a>
-        {% endif %}
+        {% endif %}{% endcomment %}
 
       </div>
     </nav>

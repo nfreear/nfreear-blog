@@ -1,5 +1,27 @@
 /* eslint camelcase: 0 */
 
+// import { getOpt } from 'https://cdn.skypack.dev/ndf-elements?min';
+
+const LOC = window.location;
+
+loadElementsJavascript();
+
+async function loadElementsJavascript () {
+  const LOCAL = /local=1/.test(LOC.search);
+  const BASE_URL = LOCAL ? 'http://localhost:8080' : 'https://nfreear.github.io/elements';
+
+  const MODULE = await import(`${BASE_URL}/index.js`); // ES11.
+  const { getOpt } = MODULE;
+
+  /* if (setOpt) {
+    setOpt('templateHost', BASE_URL);
+  } */
+
+  console.debug('ndf-elements:', getOpt(), BASE_URL, MODULE);
+
+  return MODULE;
+}
+
 /* Search redirect.
 */
 (function (W, L) {
@@ -8,9 +30,9 @@
     if (W.console) { W.console.log('Redirect', L); }
     // throw [ "Redirect", L ];
   }
-})(window, window.location);
+})(window, LOC);
 
-/* eslint-disable *//* jshint ignore:start */
+/* eslint-disable *//* jshint ignore:start */ /*
 (function (i, s, o, g, r, a, m) { i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
   (i[r].q = i[r].q || []).push(arguments) }, i[r]. l = 1 * new Date(); a = s.createElement(o),
   m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
@@ -28,7 +50,7 @@ window.jQuery(function ($) {
 
   $.NF_BLOG = BLOG;
 
-  if (!W.console || !debug) {
+  /* if (!W.console || !debug) {
     W.console = {
       debug: function () {},
       warn: function () {},
@@ -44,8 +66,8 @@ window.jQuery(function ($) {
 
   /* Google Analytics.
   */
-  W.ga('create', BLOG.analytics_id, 'auto');
-  W.ga('send', 'pageview');
+  // W.ga('create', BLOG.analytics_id, 'auto');
+  // W.ga('send', 'pageview');
 
   // Event tracking: https://developers.google.com/analytics/devguides/collection/analyticsjs/events
   $('a').on('click', function (ev) {
@@ -54,7 +76,7 @@ window.jQuery(function ($) {
 
     // Assumption: absolute URL === external link.
     if (url.match(/^https?:/)) {
-      W.ga('send', 'event', 'link', 'click', text + ' ' + url);
+      // W.ga('send', 'event', 'link', 'click', text + ' ' + url);
 
       console.debug('Track extern link click:', text, url);
     }
@@ -69,12 +91,13 @@ window.jQuery(function ($) {
     $('body').addClass('search-empty');
   }
 
+  // DEPRECATED.
   /* Browser search plugin button - Firefox 2+ and IE 7+, OpenSearch.
   */
   const $plugin = $('[ role = search ] #plugin');
   const $search = $('link[ rel = search ]');
 
-  if (W.external && ('AddSearchProvider' in W.external) && $plugin.length) {
+  /* if (W.external && ('AddSearchProvider' in W.external) && $plugin.length) {
     const $btn = $('<a role="button" >Add browser search plugin</a>')
       .attr('href', $search.attr('href'))
       .on('click', function () {
@@ -83,7 +106,7 @@ window.jQuery(function ($) {
         return false;
       });
     $plugin.append($btn);
-  }
+  } */
 
   /* Accessibility fixes.
   */

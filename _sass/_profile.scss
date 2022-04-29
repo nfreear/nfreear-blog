@@ -1,7 +1,6 @@
 /*! Profile CSS.
 */
 
-
 @mixin icon ($domain, $favicon) {
 
     & [ href *= "#{$domain}" ] {
@@ -9,11 +8,9 @@
     }
 }
 
-
 .XX-site-nav a[ href *= profile ] {
     //display: none;
 }
-
 
 .pg-profile {
 
@@ -34,13 +31,16 @@
         margin: 2px 0;
     }
 
+  @include icon( "accessibilityassociation.org", "https://www.accessibilityassociation.org/resource/Favicon_c" );
+
   @include icon( "open.ac.uk", "https://www.open.ac.uk/favicon.ico" );
-  @include icon( "cloudworks.ac.uk", "https://cloudworks.ac.uk/themes/cloudworks/favicon.ico" );
+  //@include icon( "cloudworks.ac.uk", "https://cloudworks.ac.uk/themes/cloudworks/favicon.ico" );
 
   //[href*="open.ac.uk"] {background-image:url(http://www3.open.ac.uk/favicon.ico)} // http://openlearn.open.ac.uk/favicon.ico ;
   //[href*="cloudworks.ac.uk"] {background-image:url(http://cloudworks.ac.uk/themes/cloudworks/favicon.ico)}
 
-  @include icon( "facebook.com", "https://www.facebook.com/favicon.ico" );
+  @include icon( "facebook.com", "https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico" );
+  //@include icon( "facebook.com", "https://www.facebook.com/favicon.ico" );
   @include icon( "fb.com", "https://www.facebook.com/favicon.ico" );
   @include icon( "linkedin.com", "https://www.linkedin.com/favicon.ico" );
   @include icon( "google.com"  , "https://www.google.com/favicon.ico" );
