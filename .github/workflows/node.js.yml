@@ -29,6 +29,7 @@ jobs:
     - run: npm ci
     #- run: npm run build --if-present
     - run: npm test
+    # Ignore non-zero exit codes for 'outdated' and 'audit'.
     - run: npm outdated || true
     - run: npm audit || true
 

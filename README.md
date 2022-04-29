@@ -1,5 +1,5 @@
 [![Node.js CI][ci-img]][ci]
-[![Build status — Travis-CI][travis-icon]][travis-ci]
+<!-- [![Build status — Travis-CI][travis-icon]][travis-ci] -->
 [![Jekyll][jekyll-icon]][jekyll]
 [![Prose.io][prose-icon]][prose.io]
 [![Blog posts][blog-icon]][blog]
