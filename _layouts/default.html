@@ -5,15 +5,19 @@
 
     <my-skip-link></my-skip-link>
 
-    <!-- <my-atbar-button></my-atbar-button> -->
+    {% comment %} <my-atbar-button></my-atbar-button> {% endcomment %}
 
     {% include header.html %}
 
     <div class="page-content" role="main" id="main-content" tabindex="-1">
       <div class="wrapper">
 
+        <my-gaad-widget></my-gaad-widget>
+
+        {% comment %}
         <div id="id-gaad-widget"></div>
         <div id="isad-widget" data-isad-widget='{ "point_bsa": true }'></div>
+        {% endcomment %}
 
         {{ content }}
       </div>

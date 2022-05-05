@@ -26,12 +26,14 @@
  data-site_time={{ site.time | jsonify }}
 ></div>
 
+{% comment %}
 <script src="https://unpkg.com/cookie-notice@{{ PEER.cookie-notice }}/dist/cookie.notice.min.js"
   data-cookie-notice='{ "debug": true }' ></script>
 <script src="https://unpkg.com/gaad-widget@{{ PEER.gaad-widget | default: '^3' }}/dist/gaad-widget.min.js"
   data-gaad-widget='{ "days_before": 20, "debug": true }' ></script>
-<!--<script src="https://unpkg.com/isad-widget@{{ PEER.isad-widget }}/dist/isad-widget.js"></script>-->
+<script src="https://unpkg.com/isad-widget@{{ PEER.isad-widget }}/dist/isad-widget.js"></script>
 {% if site.x_gaad_version %} {% endif %}
+{% endcomment %}
 
 <script src="https://unpkg.com/jquery@{{ PEER.jquery | default: '2.2.4' }}/dist/jquery.min.js"></script>
 {% comment %}<script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ PEER.jquery }}/jquery.min.js"></script>{% endcomment %}
