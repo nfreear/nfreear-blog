@@ -1,12 +1,16 @@
 /* eslint camelcase: 0 */
 
+import customImport from 'https://nfreear.github.io/elements/custom.js';
+
 // import { getOpt } from 'https://cdn.skypack.dev/ndf-elements?min';
+
+customImport('my-analytics,my-feed,my-font,my-gaad-widget,my-skip-link');
 
 const LOC = window.location;
 
-loadElementsJavascript();
-
-async function loadElementsJavascript () {
+// @DEPRECATED.
+// loadElementsJavascript();
+export async function loadElementsJavascript () {
   const LOCAL = /local=1/.test(LOC.search);
   const BASE_URL = LOCAL ? 'http://localhost:8080' : 'https://nfreear.github.io/elements';
 

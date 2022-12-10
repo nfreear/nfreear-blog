@@ -380,6 +380,10 @@ p > code, li > code {
   font-size: .95rem !important;
 }
 
+my-feed::part(a) {
+  line-height: 2;
+}
+
 /* IntenseDebate accessibility [Bug: #3][a11y]
 */
 body #idc-container h3 {

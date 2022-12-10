@@ -42,6 +42,7 @@
     "pa11y-ci": "pa11y-ci --config .pa11yci.json",
     "fix": "semistandard --fix",
     "new-post": "make new-post",
+    "grep:elem": "grep -rn --exclude-dir=_site '<my-' .",
     "jsonlint": "php -r 'print_r(json_decode(file_get_contents(\"package.json\")));'",
     "test": "grunt && semistandard",
     "postinstall": "husky install"
