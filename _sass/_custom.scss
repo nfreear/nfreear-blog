@@ -380,6 +380,21 @@ p > code, li > code {
   font-size: .95rem !important;
 }
 
+my-busy-spinner,
+.loading-container {
+  border: 2px solid #eee;
+  X-text-align: center;
+  min-height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+my-feed {
+  display: block;
+  min-height: 10rem;
+}
+
 my-feed::part(a) {
   line-height: 2;
 }

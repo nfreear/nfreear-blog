@@ -9,8 +9,10 @@ x-created:   2022-12-09
 
 <my-feed
   limit="20"
-  include="accessibility, disability, security, youtube"
-  href="https://nfreear.github.io/bookmarks/bookmarks.json"
+  include="accessibility,disability,usability,research,security,youtube"
+  href="https://nfreear.github.io/bookmarks/feed.json"
   >
-  Loading bookmarks …
+  <my-busy-spinner class="loading-container">
+    <p> Loading bookmarks … </p>
+  </my-busy-spinner>
 </my-feed>

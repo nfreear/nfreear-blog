@@ -4,7 +4,7 @@ import customImport from 'https://nfreear.github.io/elements/custom.js';
 
 // import { getOpt } from 'https://cdn.skypack.dev/ndf-elements?min';
 
-customImport('my-analytics,my-feed,my-font,my-gaad-widget,my-skip-link');
+customImport('my-analytics,my-busy-spinner,my-feed,my-font,my-gaad-widget,my-skip-link');
 
 const LOC = window.location;
 
