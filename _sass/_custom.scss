@@ -241,13 +241,18 @@ body .gist iframe.render-viewer {
   padding-bottom: 75%;
 }
 
-.post-content img {
+.post-content img:not(.emoji) {
   border-radius: 3px;
   display: block;
   margin: 1.3rem auto;
   max-height: 460px;
   outline: 1px solid #ccc;
   outline-offset: 4px;
+}
+
+img.emoji {
+  height: 25px;
+  width: 25px;
 }
 
 .post-content a img {

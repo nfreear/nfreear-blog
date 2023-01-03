@@ -106,6 +106,9 @@ webrick:
     Content-Script-Type: text/javascript; charset=utf-8
 
 # Build settings
+plugins:
+  - jemoji
+
 markdown: kramdown
 
 egg: Unccl oveguqnl gb lbh!
