@@ -1,13 +1,20 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {% assign titles_size = site.pages | map: 'title' | join: '' | size %}
+
+<!-- <script>
+console.log({{ default_paths | json }});
+</script> -->
 
     {% if site.x_black_ribbon %}
     <img alt="{{ site.x_black_ribbon }}" class="black-ribbon left" src=
     "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Black_Ribbon.svg/26px-Black_Ribbon.svg.png" />
     {% endif %}
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title | escape }}</a>
 
     <nav class="site-nav" role="navigation">
       <a href="#" class="menu-icon" role="button" aria-label="Show / hide navigation">
@@ -21,11 +28,12 @@
 
       <div class="trigger">
         <span class="page-links">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link {{ page.x-nav-class }}" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+          {%- for path in page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title -%}
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            {%- endif -%}
+          {%- endfor -%}
         </span>
 
         {% if site.ex_custom_nav %}

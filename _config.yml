@@ -30,6 +30,14 @@ github_username:  nfreear
 
 x-github-url: https://github.com/nfreear/nfreear.github.io
 
+header_pages:
+  - _pages/index.html
+  - _pages/about.md
+  - _pages/links.html
+  - _pages/tag.html
+  - _pages/profile.md
+  - _pages/search.html
+
 # Site setting extensions.
 
 # 'truncatewords: 28' (Was: truncate: 220)
@@ -56,10 +64,9 @@ date_format: "%-d %B %Y"
 ex_feed_limit: 100  # Default: 10;
 
 ex_custom_nav:
-  - <a href="https://freear.org.uk/moodle/" title="Moodle 2 for Teaching 4-9 Year Olds Beginner's Guide, by Nick Freear">Moodle book</a>
-  - <a href="https://accessify.wikia.com/wiki/Accessify_Wiki" title="Working together to fix accessibility on the Web, one site at a time">Accessify Wiki</a>
-  - <a href="https://freear.org.uk/" title="My legacy blog, Freear.org.uk">Legacy</a>
-  #- <a href="#">Test 2</a>
+  #- <a href="https://freear.org.uk/moodle/" title="Moodle 2 for Teaching 4-9 Year Olds Beginner's Guide, by Nick Freear">Moodle book</a>
+  #- <a href="https://accessify.wikia.com/wiki/Accessify_Wiki" title="Working together to fix accessibility on the Web, one site at a time">Accessify Wiki</a>
+  #- <a href="https://freear.org.uk/" title="My legacy blog, Freear.org.uk">Legacy</a>
 
 #ex_site_message: Hello world! Just a <a href="#">test</a>!
 __ex_site_message: >
