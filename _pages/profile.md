@@ -12,11 +12,12 @@ x-footer-script: https://unpkg.com/github-widget@1.0.0/dist/bootstrap-github-wid
 You can find me all over the Web &hellip; :
 
 * [International Association of Accessibility Professionals][iaap]
-* [Profile at The Open University][iet]
+* [Profile at The Open University][iet] (archive)
 * [Facebook](https://fb.com/nick.freear)
 * [LinkedIn](https://linkedin.com/in/nfreear/)
-* [Google+](https://plus.google.com/+NickFreear)
+<!-- * [Google+](https://plus.google.com/+NickFreear) -->
 * [Google Scholar][scholar]
+* [Mastodon: @ndf@mastodon.social](https://mastodon.social/@ndf)
 * [Twitter: @nfreear](https://twitter.com/@nfreear)
 * [Twitter: @AccessifyWiki](https://twitter.com/AccessifyWiki)
 * [Pinboard: ndf](https://pinboard.in/u:ndf)
@@ -28,23 +29,24 @@ You can find me all over the Web &hellip; :
 * [Slideshare](https://slideshare.net/nfreear)
 * [YouTube](https://youtube.com/user/NickFreear)
 * [Flickr](https://flickr.com/photos/nfreear)
+* [CodePen](https://codepen.io/nfreear)
 * [GitHub](https://github.com/nfreear)
 * [Bitbucket](https://bitbucket.org/nfreear)
 * [NPM: @nfreear](https://npmjs.com/~nfreear)
 * [Packagist: nfreear](https://packagist.org/packages/nfreear/)
 * [Travis-CI: nfreear](https://travis-ci.org/nfreear) and [IET-OU](https://travis-ci.org/IET-OU)
-* [ScraperWiki](https://classic.scraperwiki.com/profiles/nfreear/)
-* [Yahoo! Pipes][pipes]
+* [ScraperWiki][scraperwiki] (archive)
+* [Yahoo! Pipes][pipes] (archive)
 * [Mycroft](https://mycroft.mozdev.org/search-engines.html?author=Nick+Freear "Search plugins")
-* [Cloudworks][cw-arch]
+* [Cloudworks][cw-arch] (archive)
 * [Moodle.org](https://moodle.org/user/profile.php?id=93815)
 * [Libraries.io](https://libraries.io/github/nfreear/projects)
 * [Open HUB](https://openhub.net/accounts/nfreear "Formerly called 'Ohloh'")
 * [Gravatar](https://en.gravatar.com/maltable)
-* [Member of the Guild of Accessible Web Designers][gawds]
+* [Member of the Guild of Accessible Web Designers][gawds] (archive)
 * [Mendeley](https://mendeley.com/profiles/nicholas-freear/)
 * [ORCiD](https://orcid.org/0000-0001-7791-5549 "Connecting Research and Researchers")
-* [Moodle 2 for Teaching 4-9 Year Olds Beginner's Guide][book]
+* [Moodle 2 for Teaching 4-9 Year Olds Beginner's Guide][book-arch]
 
 
 ---
@@ -60,7 +62,9 @@ You can find me all over the Web &hellip; :
 
 <div data-toggle="github-widget" data-user="nfreear" data-limit="5" data-body="auto" data-footer="auto"></div>
 
-[iaap]: https://www.accessibilityassociation.org/s/cpacc-certificants#:~:text=Freear
+[iaap]: https://www.accessibilityassociation.org/s/cpwa-certificants#Certificants2
+  "Certified Professional in Web Accessibility (CPWA)"
+[iaap-cpacc]: https://www.accessibilityassociation.org/s/cpacc-certificants#:~:text=Freear
   "Certified Professional in Accessibility Core Competencies (CPACC)"
 [iet]: https://web.archive.org/web/20210427202138/https://iet.open.ac.uk/people/nick.freear
   "Profile in the Institute of Educational Technology (IET), at The Open University"
@@ -70,10 +74,16 @@ You can find me all over the Web &hellip; :
 [pipes-X]: http://real.pipes.yahoo.com/pipes/person.info?guid=LW3IH5LT34QCKSVZW6WLSK2BYE#!_ARCHIVE_
 [pipes]: https://web.archive.org/web/20160408134939/http://real.pipes.yahoo.com/pipes/person.info?guid=LW3IH5LT34QCKSVZW6WLSK2BYE#
     "Archive, 08-April-2016 - Yahoo Pipes"
+[scraperwiki]: https://web.archive.org/web/20130310224903/https://scraperwiki.com/profiles/nfreear/
+  "Archive, 10-March-2013 - ScraperWiki"
 [gawds]: https://web.archive.org/web/20111104032019/http://gawds.org/showmember.php?memberid=2424
     "Archive, 04-Nov-2011. Original link broken (GAWDS)"
+[book-arch]: https://web.archive.org/web/20190114120725/https://www.packtpub.com/hardware-and-creative/moodle-2-teaching-4-9-year-olds-beginners-guide
+  "Archive, 14-Jan-2019"
 [book]: https://packtpub.com/moodle-2-for-teaching-4-9-year-olds-beginners-guide/book?ref=freear.org.uk
     "My book, published by Packt"
+[book-amzn]: https://www.amazon.co.uk/Moodle-Teaching-Year-Beginners-Guide/dp/1849513287/
+  "My book, on Amazon (ISBN-13: ‎978-1849513289)"
 [oh-cloud]: https://openhub.net/p/cloudengine/widgets/project_thin_badge?format=gif&ref=Thin+badge
     "CloudEngine, on Open HUB"
 [oh-omp]: https://www.openhub.net/p/open-media-player/widgets/project_thin_badge?format=gif&ref=Thin+badge
