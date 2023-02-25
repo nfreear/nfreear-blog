@@ -1,51 +1,21 @@
 {
   "private": true,
-  "name": "nfreear.github.io",
-  "version": "1.1.0",
-  "description": "Experimental! I'm re-developing my blog, using Jekyll and GitHub pages. | © 2009-2022 NDF.",
-  "main": "./Gruntfile.js",
+  "name": "nfreear-blog",
+  "version": "2.0.0",
+  "description": "Experimental! I'm re-developing my blog, using Jekyll and GitHub pages. | © 2009-2023 NDF.",
   "engines": {
-    "node": ">= 11",
-    "ruby": "2.3.7p456",
-    "jekyll": "3.8.5"
+    "node": ">= 14"
   },
   "devDependencies": {
-    "grunt": "^1.5.3",
-    "grunt-cli": "^1.4.3",
-    "grunt-contrib-jshint": "^3.2.0",
-    "grunt-contrib-sass": "^2.0.0",
-    "grunt-exec": "^3.0.0",
-    "husky": "^5.2.0",
-    "pa11y-ci": "^1.3.1",
-    "semistandard": "^16.0.1"
-  },
-  "x_cdnDependencies": {
-    "jquery": "3.3.1",
-    "html5shiv": "3.7.3",
-    "respond.js": "1.4.2",
-    "gaad-widget": "^3",
-    "github-describe": "^1",
-    "isad-widget": "^1.1",
-    "cookie-notice": "^1",
-    "jquery-oembed": "https://embed.open.ac.uk/scripts/jquery.oembed.js#^1.0",
-    "staticman-api": "https://api.staticman.net/v2/#^2.0",
-    "intensedebate": "https://intensedebate.com/js/genericCommentWrapper2.php#^2.0",
-    "atbar": "https://core.atbar.org/atbar/en/latest/atbar.min.js#^1.0",
-    "google-analytics": "https://www.google-analytics.com/analytics.js#^1.0"
+    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-plugin-webc": "^0.8.1",
+    "luxon": "^3.2.1"
   },
   "scripts": {
-    "build": "bundle exec jekyll build",
-    "serve": "bundle exec jekyll serve",
-    "start": "bundle exec jekyll serve --drafts --unpublished --future",
-    "version": "bundle exec jekyll --version",
-    "count": "grunt exec:count",
-    "pa11y-ci": "pa11y-ci --config .pa11yci.json",
-    "fix": "semistandard --fix",
-    "new-post": "make new-post",
-    "grep:elem": "grep -rn --exclude-dir=_site '<my-' .",
-    "jsonlint": "php -r 'print_r(json_decode(file_get_contents(\"package.json\")));'",
-    "test": "grunt && semistandard",
-    "postinstall": "husky install"
+    "build": "npx @11ty/eleventy",
+    "clean": "rm -rf _site",
+    "start:debug": "DEBUG=Eleventy* npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve --quiet"
   },
   "repository": "https://github.com/nfreear/nfreear.github.io",
   "author": "Nick Freear {@nfreear}",
@@ -55,19 +25,11 @@
   "keywords": [],
   "contributors": [],
   "x-count": {
-    "drafts": 18,
-    "posts": 57,
-    "total": 75
-  },
-  "husky-LEGACY": {
-    "hooks": {
-      "pre-commit": "npm test && npm run build"
-    }
+    "drafts": 23,
+    "posts": 59,
+    "total": 82
   },
   "semistandard": {
-    "ignore": [
-      "Gruntfile.js",
-      "js/intensedebate"
-    ]
+    "ignore": []
   }
 }
