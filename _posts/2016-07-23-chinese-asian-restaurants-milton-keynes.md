@@ -23,8 +23,7 @@ Here are some suggestions, and below you'll find a handy map:
 If you have any suggestions, please share!
 
 ### The map
-<script src="https://gist.github.com/nfreear/a0a21eacc7a728075a4d.js"></script>
-
+<script src="https://gist.github.com/nfreear/a0a21eacc7a728075a4d.js" webc:keep></script>
 
 Some notes,
 

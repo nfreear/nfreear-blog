@@ -4,7 +4,7 @@ published: false
 x-csp-disable: true
 layout: post
 title:  Fluffy pancakes
-date:   2020-02-25 19:00
+date:   2020-02-25 19:00:00Z
 tags:   [ recipe ]
 
 last_updated: 2020-02-25

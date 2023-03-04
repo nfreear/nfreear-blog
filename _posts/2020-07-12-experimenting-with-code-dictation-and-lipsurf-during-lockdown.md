@@ -1,5 +1,7 @@
 ---
 published: false
+title: Experimenting with code dictation and Lipsurf during lockdown
+date: 2020-07-12
 ---
 PublishedFallsUltimate new fileItemNew fileDown
 PlayerI could post

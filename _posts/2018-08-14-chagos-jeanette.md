@@ -3,7 +3,7 @@ published: false
 x-csp-disable: true
 layout: post
 title:  Save my daughter from being deported - Chagos Islands
-date:   2018-08-14 15:30
+date:   2018-08-14 15:30:00Z
 tags:   [ campaign, MK, justgiving ]
 og-desc: A short description
 # og-image-00: https://c1.staticflickr.com/5/4076/35671915106_62be509598_z.jpg

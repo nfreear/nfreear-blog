@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Tribute to Dan Jellinek
-date:   2016-02-22 16:15
+date:   2016-02-22 16:15:00Z
 tags:
 og-desc: I'll miss Dan, and I know the wider disability, e-democracy and e-government communities will too. In memory of Dan Jellinek 1968 — 2015.
 og-image: http://brightonandhovenews.org/wp-content/uploads/2015/10/Dan-Jellinek-2.jpg

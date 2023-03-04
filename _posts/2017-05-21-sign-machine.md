@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Sign-machine rebooted
-date:   2017-05-22 17:23
+date:   2017-05-22 17:23:00Z
 tags:   NPM  accessibility  javascript  e-learning
 ## permalink: /sm/
 x-footer-script: https://unpkg.com/sign-machine@2.1.0-beta/src/sign-machine.js

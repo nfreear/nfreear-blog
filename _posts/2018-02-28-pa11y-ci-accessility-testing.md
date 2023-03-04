@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Accessibility testing, with 'pa11y-ci'
-date:   2018-03-02 21:25
+date:   2018-03-02 21:25:00Z
 x-created: 2018-02-28 21:35
 tags:   [ accessibility, travis-ci, "open source", NPM, javascript ]
 # og-desc: A short description

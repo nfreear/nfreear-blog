@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Simple-speak, voiceFamily
-date:   2017-06-13 21:00
+date:   2017-06-13 21:00:00Z
 x-created:   2017-05-31 19:00
 tags:   NPM  accessibility  javascript  e-learning
 og-desc: With the evolution of HTML5 and the Web Speech API, it's the ideal time to develop an easy to integrate Javascript library - enter 'simple-speak'.

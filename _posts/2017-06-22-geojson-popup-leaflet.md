@@ -2,7 +2,7 @@
 x-csp-disable: true
 layout: post
 title:  Rich GeoJSON popups for Leaflet
-date:   2017-06-27 21:55
+date:   2017-06-27 21:55:00Z
 x-created: 2017-06-22 18:00
 tags:   NPM  javascript  e-learning  map
 og-desc:  Add GeoJSON-based templated popups to your Leaflet map. See the audio-player example.
@@ -104,17 +104,17 @@ to [@nfreear on Twitter][], and [on Facebook][].
 <!--[![geojson-popup on NPM][npm-svg]][npm]-->
 
 
-<script type="text/html" id="popup-template">
+<script type="text/html" id="popup-template" webc:keep>
   <div class="audio-popup">
     <h2><%= title %></h2>
     <span><%= description %></span> <a href="<%= credit_url %>">credit</a>
     <audio src="<%= audio_url %>" controls ></audio>
   </div>
 </script>
-<script> MAP_CFG = { latLng: [ 53.9749, -11.500 ] } </script>
-<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+<script webc:keep> MAP_CFG = { latLng: [ 53.9749, -11.500 ] } </script>
+<script webc:keep src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 
-
+<!--
 {% comment %}
   [ 53.9749, -10.2626 ]
 ## [geojson-popup][npm]
@@ -126,6 +126,7 @@ to [@nfreear on Twitter][], and [on Facebook][].
 <script src="https://unpkg.com/superagent@3.5.2/superagent.js"></script>
 <script src="https://unpkg.com/popup-geojson-map@1.0.0-beta#..js"></script>
 {% endcomment %}
+-->
 
 [@nfreear on Twitter]: https://twitter.com/nfreear
 [on Facebook]: https://facebook.com/nickfreear

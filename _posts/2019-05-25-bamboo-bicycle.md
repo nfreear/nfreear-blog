@@ -2,7 +2,7 @@
 x-csp-disable: true
 layout: post
 title:  Bamboo Bicycle
-date:   2019-06-23 08:00
+date:   2019-06-23 08:00:00Z
 tags:   [ bamboo, bicycle ]
 
 last_updated: 2019-05-25

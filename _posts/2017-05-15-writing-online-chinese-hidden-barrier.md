@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Writing online in Chinese, a hidden barrier
-date:   2017-05-15 17:23
+date:   2017-05-15 17:23:00Z
 tags:   accessibility  gerontology  China
 og-desc: Let me tell you a story ... It turns out that you need something extra to write Chinese on the Web. And, it's a hidden barrier.
 og-image: https://c1.staticflickr.com/5/4167/34296737840_bcd615585f_n.jpg

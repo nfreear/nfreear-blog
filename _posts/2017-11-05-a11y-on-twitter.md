@@ -3,7 +3,7 @@ published: false
 x-csp-disable: true
 layout: post
 title:  Accessibility on Twitter
-date:   2017-11-05 12:00
+date:   2017-11-05 12:00:00Z
 tags:   [ accessibility, "open source", twitter ]
 og-desc: A short description
 # og-image-00: https://c1.staticflickr.com/5/4076/35671915106_62be509598_z.jpg
@@ -65,7 +65,7 @@ href="https://t.co/Hwh3bavjoW">https://t.co/Hwh3bavjoW</a> <a href=
 
 
 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8" webc:keep></script>
 
 
 [kit-license]: https://creativecommons.org/licenses/by-sa/2.0/

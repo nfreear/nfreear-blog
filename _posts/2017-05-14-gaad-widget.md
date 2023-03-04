@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  GAAD-widget
-date:   2017-05-14 07:55
+date:   2017-05-14 07:55:00Z
 tags:   [ NPM, accessibility, "open source", event, javascript ]
 og-desc: To help promote and celebrate Global Accessibility Awareness Day (GAAD), I’ve come up with an Javascripted banner-link.
 og-image: https://c1.staticflickr.com/5/4076/35671915106_62be509598_z.jpg

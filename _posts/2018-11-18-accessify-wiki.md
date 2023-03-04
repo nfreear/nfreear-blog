@@ -2,7 +2,7 @@
 x-csp-disable: true
 layout: post
 title:  Accessify Wiki
-date:   2018-11-18 10:51
+date:   2018-11-18 10:51:00Z
 tags:   [ "open source", bookmark, javascript, jekyll, accessibility ]
 og-desc: Working together to fix accessibility on the Web, one site at a time.
 og-image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Gnome-preferences-desktop-accessibility2.svg/240px-Gnome-preferences-desktop-accessibility2.svg.png

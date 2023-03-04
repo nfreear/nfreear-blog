@@ -2,7 +2,7 @@
 x-csp-disable: true
 layout: post
 title:  My stammer
-date:   2020-02-10 12:00
+date:   2020-02-10 12:00:00Z
 # Was: date:   2020-02-02 12:00
 tags:   [ stammer, stutter ]
 
@@ -13,7 +13,7 @@ priority: 1.0
 x-style: 'body .gist iframe.render-viewer { height: 640px; }'
 ---
 
-<script src="https://gist.github.com/nfreear/53e3a49968f3b4d4f784a6a65d99b8b9.js"></script>
+<script src="https://gist.github.com/nfreear/53e3a49968f3b4d4f784a6a65d99b8b9.js" webc:keep></script>
 
 At the moment I'm looking again at my stammer/ stutter, and my feeling and emotions about it.
 

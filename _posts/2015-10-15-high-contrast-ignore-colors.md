@@ -3,7 +3,7 @@ layout: post
 title:  High contrast and ignore colours
 x-updated:  2016-04-05 21:35:00
 x-created:  2015-10-15 22:00:00
-date:   2015-10-23 15:20:00 +0000
+date:   2015-10-23 15:20:00Z
 categories:
 tags:   ignore-color  accessibility  low-vision  fixes  javascript  css  ouplayer  LACE
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Accessibility thoughts, OpenSign, universal design & applied gerontology
-date:   2015-11-02 14:39:00 +0000
+date:   2015-11-02 14:39:00Z
 x-created:   2015-11-01 16:42:00 +0000
 categories:
 tags:   design  user-centred  user-experience  ergonomics  accessibility  usability

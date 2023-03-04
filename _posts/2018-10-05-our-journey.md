@@ -2,7 +2,7 @@
 x-csp-disable: true
 layout: post
 title:  our-journey
-date:   2018-10-05 13:32
+date:   2018-10-05 13:32:00Z
 tags:   [ "open source", OU, javascript, accessibility, IET-OU, project ]
 og-desc: Our Journey is an interactive online tool to chart the highs and lows of student journeys.
 og-image: https://github.com/IET-OU/our-journey/raw/master/assets/screenshot-1.png

@@ -2,7 +2,7 @@
 layout: post
 title:  Composer-suggest, JuxtaLearn, LACE & Open Media Player
 x-created: 2015-10-25 13:51:00 +0000
-date:   2015-11-04 17:15:00 +0000
+date:   2015-11-04 17:15:00Z
 categories:
 tags:   php  composer  LACE  JuxtaLearn  ouplayer  plugin  wordpress
 ---

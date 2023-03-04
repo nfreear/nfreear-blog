@@ -2,7 +2,7 @@
 x-csp-disable: true
 layout: post
 title:  Completely blind backpacker travelling… (BBC)
-date:   2017-12-04 22:25
+date:   2017-12-04 22:25:00Z
 tags:   travel  video
 og-desc: 'BBC: Mr Giles’s first solo trip was to New Orleans in 2000 - he has now visited more than 120 countries.'
 og-image: https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/A733/production/_99030824_mediaitem99030823.jpg

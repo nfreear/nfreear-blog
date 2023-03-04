@@ -2,7 +2,7 @@
 # x-csp-disable: true
 layout: post
 title:  Can we have a text version of Hawking thesis?
-date:   2017-10-24 12:00
+date:   2017-10-24 12:00:00Z
 tags:   [ accessibility, "open access", thesis ]
 og-desc: Congratulations ... I'm a little disappointed that alongside the PDF of the scanned thesis, there isn't a text version.
 og-image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Stephen_Hawking.StarChild.jpg/220px-Stephen_Hawking.StarChild.jpg
