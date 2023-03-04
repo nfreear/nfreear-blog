@@ -1,60 +1,28 @@
 /**
- * Configuration for the Eleventy WebC starter project.
+ * Configuration for my Eleventy WebC-based blog.
+ *
+ * @copyright Nick Freear, 25-Feb-2023.
  */
 
-const { DateTime } = require('luxon');
 const pluginWebc = require('@11ty/eleventy-plugin-webc');
-const PKG = require('./package.json');
 
+const APP_PLUGINS = [ 'app-filters', 'exclude-drafts', 'post-permalink' ];
 const layoutAlias = [ 'base', 'default', 'home', 'page', 'post' ];
+const components = '_components/**/*.webc';
 
 module.exports = (eleventyConfig) => {
-  eleventyConfig.addPlugin(pluginWebc, {
-    components: '_components/**/*.webc',
+  eleventyConfig.addPlugin(pluginWebc, { components });
+
+  APP_PLUGINS.forEach((plugin) => {
+    eleventyConfig.addPlugin(require(`./_app/${plugin}.plugin`));
   });
-
-  eleventyConfig.ignores.add('_drafts');
-  eleventyConfig.ignores.add('_posts/2020-07-12-experimenting-with-code-dictation-and-lipsurf-during-lockdown.md');
-  eleventyConfig.ignores.add('_posts/2009-07-16-improving-the-accessibility-of-uservoice.md');
-  eleventyConfig.ignores.add('_posts/2017-11-05-a11y-on-twitter.md');
-
-  eleventyConfig.ignores.add('(LICENSE|README).md');
-  eleventyConfig.ignores.add('_posts/_blog.md');
-
-  // App plugins
-  // eleventyConfig.addPlugin(require('./_11ty/date-fix.plugin.js'));
-	// eleventyConfig.addPlugin(require('./_app/drafts.plugin.js'));
-  // eleventyConfig.addPlugin(require('./_app/post-permalink.plugin.js'));
-
-  // Filters
-	eleventyConfig.addFilter('readableDate', (dateObj, format, zone) => {
-		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-		return DateTime.fromJSDate(dateObj, { zone: zone || 'utc' }).toFormat(format || 'dd LLLL yyyy');
-	});
-
-  eleventyConfig.addFilter('sourceUrl', () => PKG.repository.url);
-
-  eleventyConfig.addFilter('_enc', (p) => encodeURIComponent(p));
-  eleventyConfig.addFilter('cgi_escape', (p) => encodeURIComponent(p));
-
-  eleventyConfig.addJavaScriptFunction('copyright', () => {
-    const now = new Date();
-
-    return `&copy; ${now.getFullYear()}`; // ` Yours Truly.`;
-  });
-
-  /** @legacy Jekyll.
-  */
-  eleventyConfig.addPairedLiquidShortcode('highlight', (codeContent, lang = 'xml') => codeContent);
-
-  eleventyConfig.addLiquidShortcode('post_url', (path) => path); // 5 occurences.
 
   // eleventyConfig.addPlugin(syntaxHighlight);
   // eleventyConfig.addPlugin(pluginRss);
-  // eleventyConfig.addPassthroughCopy('favicon.ico');
   // eleventyConfig.addPassthroughCopy('assets/fonts');
 
   eleventyConfig.addPassthroughCopy('css');
+  eleventyConfig.addPassthroughCopy('favicon.ico');
 
   layoutAlias.forEach(alias => {
     // Aliases relative to `_includes` directory.

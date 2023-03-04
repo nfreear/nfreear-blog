@@ -1,34 +1,15 @@
-*.md.html
 
-# *.html
-!comments.html
-*.txt
-/*.svg
+date-fix.plugin.js
 
+.gitignore
 .DS_Store
 _site
-.sass-cache
 node_modules/*
-# package-lock.json
-.bundle/
-# Gemfile.lock
-vendor/
-
 *BAK*
 *copy*
-*edit-me*
-
 _out/
-#!_out/.htaccess
-
-blog.md
-_pages/comment-frame.htm
-_pages/contribute.json
-_pages/sm.md
-
 pa11y-ci-report.md
 
-_posts/1994-2*
-_posts/2018/
+# _posts/1994-2*
 
 # End.
