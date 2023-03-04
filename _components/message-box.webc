@@ -1,0 +1,19 @@
+
+<style>
+.message-box {
+  background: rgba(127,127,127, .1);
+  border: 1px solid rgba(127,127,127, .15);
+  border-radius: .2rem;
+  margin: 2rem 0;
+  padding: 1rem .7rem;
+}
+</style>
+
+<div class="message-box">
+	<ol>
+		<li>Edit <code>_data/metadata.js</code> with your blog’s information.</li>
+		<li>(Optional) Edit <code>eleventy.config.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
+		<li>Delete this message from <code>_pages/index.md</code>.</li>
+	</ol>
+	<p><em>This is a project built on <a href="https://www.11ty.dev/">Eleventy</a> created from the <a href="https://github.com/nfreear/11ty-webc-blog"><code>11ty-webc-blog</code> repo</a>.</em></p>
+</div>

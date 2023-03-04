@@ -1,0 +1,18 @@
+<script webc:type="js" webc:is="template">
+  /**
+   * No-Javascript site analytics, via GoatCounter.
+   *
+   * @example <img src="https://ndf812.goatcounter.com/count?p=/test-1" alt="">
+   * @see https://www.goatcounter.com/help/pixel
+   */
+
+  // console.log('site-analytics.webc:', analytics);
+
+''; // Prevent a ghost 'undefined'.
+</script>
+
+<img
+  webc:if="analytics.enable"
+  :src="`https://${analytics.gcId}.goatcounter.com/count?p=${_enc(analytics.host + page.url)}&t=${_enc(title)}&b=0`"
+  alt=""
+/>

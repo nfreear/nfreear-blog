@@ -1,3 +1,6 @@
+---
+title: (Blog)
+---
 
 ## Analytics for 1 year
 

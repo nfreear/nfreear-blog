@@ -1,0 +1,21 @@
+
+<script webc:type="js" webc:is="template">
+  /**
+   * Generate the page <title> element.
+   *
+   * @see https://11ty.webc.fun/recipes/webc-inside-your-head/
+   */
+
+  let metaTitle;
+
+  if (title) {
+    // If the current page has a title, put it before the site title
+    // metaTitle = `${title} — ${site.title}`;
+    metaTitle = `${title} — ${metadata.title}`;
+  } else {
+    // If the current page has no title, just put the site title
+    metaTitle = site.title;
+  }
+
+  `<title>${metaTitle}</title>`;
+</script>

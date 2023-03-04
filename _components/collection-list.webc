@@ -1,0 +1,22 @@
+
+<script webc:type="js" webc:is="template">
+  /**
+   * Output a collection as a list.
+   *
+   * @TODO reverse
+   * @attribute tag - Tag for the collection `tag="posts"`
+   * @see https://github.com/11ty/eleventy-base-blog/blob/main/_includes/postslist.njk
+   */
+
+  collectionList(tag);
+
+  function collectionList (tag) {
+    const TAG = tag || 'all';
+    const PATH = nav.pathPrefix || '';
+
+    return collections[TAG].map((post) => `<li class="postlist-item">
+        <a href="${PATH + post.url}">${post.data.title}</a>
+      </li>`)
+      .join('');
+  }
+</script>

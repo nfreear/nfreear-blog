@@ -1,0 +1,11 @@
+---
+layout: base
+---
+
+<article>
+  <h1 @text="title"></h1>
+
+  <p><time @text="readableDate(page.date)"></time></p>
+
+  <div @raw="content" webc:nokeep></div>
+</article>

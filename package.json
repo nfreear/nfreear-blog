@@ -17,7 +17,10 @@
     "start:debug": "DEBUG=Eleventy* npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve --quiet"
   },
-  "repository": "https://github.com/nfreear/nfreear.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nfreear/nfreear-blog.git"
+  },
   "author": "Nick Freear {@nfreear}",
   "license": "(MIT AND CC-BY-SA-4.0)",
   "homepage": "https://nick.freear.org.uk/",

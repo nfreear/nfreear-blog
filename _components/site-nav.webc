@@ -1,0 +1,41 @@
+
+<nav aria-labelledby="siteNavLabel">
+  <h2 class="visually-hidden" id="siteNavLabel">Main navigation</h2>
+  <ul class="nav">
+    <script webc:type="js" webc:is="template">
+      /**
+       * A site navigation component.
+       *
+       * @attribute tag - Key for the `nav` array.
+       * @see _data/nav.js
+       */
+
+      siteNav(tag);
+
+      function siteNav(tag) {
+        const TAG = tag || 'main';
+        const PATH = nav.pathPrefix || '/';
+        const PAGES = [];
+
+        // console.debug('Nav:', nav);
+
+        nav[TAG].forEach((path) => {
+          const found = collections.all.find(page => page.inputPath === path);
+          if (found) {
+            PAGES.push(found);
+          }
+        });
+
+        return PAGES.map((page) =>`<li class="nav-item">
+            <a href="${PATH + page.url}">${page.data.title}</a>
+          </li>`)
+          .join('');
+      }
+
+      /* collections.pages.map((page) => `<li>
+          <a href="${page.url}" data-path="${page.inputPath}">${page.data.title}</a>
+        </li>`)
+        .join(''); */
+    </script>
+  </ul>
+</nav>

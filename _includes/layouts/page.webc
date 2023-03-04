@@ -1,0 +1,7 @@
+---
+layout: base
+---
+
+<h1 @text="title"></h1>
+
+<div @raw="content" webc:nokeep></div>

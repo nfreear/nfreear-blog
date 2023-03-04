@@ -1,0 +1,42 @@
+<script webc:type="js" webc:is="template">
+/**
+ * Keyboard accessibility: A skip to main content link.
+ *
+ * @see https://github.com/nfreear/elements/blob/main/src/templates/my-skip-link.tpl.html
+ */
+''; // Prevent 'undefined'
+</script>
+
+<style>
+.skip-link { margin: 0; }
+
+.skip-link > :link {
+  display: block;
+  position: absolute;
+  top: .3rem;
+  transition: all .4s;
+}
+
+.skip-link :not(:focus) {
+  border: none;
+  font-size: 1px;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.skip-link :focus,
+.skip-link :visited:focus {
+  background: var(--skip-link-bg, lightyellow);
+  border: 2px solid darkorange;
+  border-radius: .25rem;
+  color: var(--skip-link-color, teal);
+  font-size: 1.1rem;
+  height: auto;
+  width: auto;
+  padding: .5rem;
+  z-index: 999;
+}
+</style>
+
+<p class="skip-link"><a :href="href || '#main'">Skip to main content</a></p>
