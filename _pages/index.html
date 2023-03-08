@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-permalink: /
+permalink: /index.html
 ---
 
 <div class="home">
@@ -9,17 +9,16 @@ permalink: /
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in collections.posts reversed %}
       <li>
         {% capture date_format %}{{ site.date_format | default: "%b %-d, %Y" }}{% endcapture %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: nav.baseurl }}">{{ post.data.title }}</a>
         </h2>
-        {% if site.ex_excerpt_truncate %}
-          <p>{{ post.excerpt | strip_html | truncatewords: site.ex_excerpt_truncate,"&hellip;" }}
-          <a class="more" href="{{ post.url | prepend: site.baseurl }}">More<i class="sr-only"> on {{ post.title }}</i></a>
+        {% if site.excerpt_truncate %}
+          <p>{{ post.content | strip_html | truncatewords: site.excerpt_truncate,"&hellip;" }}
+          <a class="more" href="{{ post.url | prepend: nav.baseurl }}">More<i class="sr-only"> on {{ post.data.title }}</i></a>
         {% endif %}
       </li>
     {% endfor %}

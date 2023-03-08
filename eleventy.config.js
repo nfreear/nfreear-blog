@@ -6,7 +6,7 @@
 
 const pluginWebc = require('@11ty/eleventy-plugin-webc');
 
-const APP_PLUGINS = [ 'app-filters', 'exclude-drafts', 'post-permalink' ];
+const APP_PLUGINS = [ 'app-filters', 'tag-filters', 'exclude-drafts', 'post-permalink' ];
 const layoutAlias = [ 'base', 'default', 'home', 'page', 'post' ];
 const components = '_components/**/*.webc';
 

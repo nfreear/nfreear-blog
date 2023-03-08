@@ -9,9 +9,12 @@ x-created: 2015-10-20
 
   <h1 class="page-heading">Tags</h1>
 
-  <ul>
-    <li><a href="/search/">You can also use site search</a>.
+  <p>&rarr; <a href="/search/">You can also use site search</a>.</p>
+
+  <ul class="tag-cloud">
+    <tag-list :collection="collections.posts" webc:nokeep></tag-list>
   </ul>
+
 
   {% assign sorted_tags = site.tags | sort %}
   {% assign date_format = site.date_format | default: "%b %-d, %Y" %}

@@ -34,6 +34,14 @@ module.exports = (eleventyConfig) => {
     return `&copy; ${now.getFullYear()}`; // ` Yours Truly.`;
   });
 
+  eleventyConfig.addFilter('console', (ob) => console.log('>>>', ob));
+
+  /** 'Math' and 'Date' globals are not directly available in WebC scripts - weird!
+  */
+  eleventyConfig.addFilter('getGlobal', () => {
+    return { Date, Math };
+  });
+
   /** @legacy Jekyll shortcodes.
   */
   eleventyConfig.addPairedLiquidShortcode('highlight', (codeContent, lang = 'xml') => codeContent);
