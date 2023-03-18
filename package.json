@@ -12,10 +12,11 @@
     "luxon": "^3.2.1"
   },
   "scripts": {
-    "build": "npx @11ty/eleventy",
+    "build": "JS=1 npx @11ty/eleventy",
     "clean": "rm -rf _site",
-    "start:debug": "DEBUG=Eleventy* npx @11ty/eleventy --serve",
-    "start": "npx @11ty/eleventy --serve --quiet"
+    "start:debug": "JS=1 DEBUG=Eleventy* npx @11ty/eleventy --serve",
+    "start:nojs": "JS=0 npx @11ty/eleventy --serve --quiet",
+    "start": "JS=1 npx @11ty/eleventy --serve --quiet"
   },
   "repository": {
     "type": "git",

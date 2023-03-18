@@ -10,8 +10,20 @@ x-created:   2015-10-21
 
   <h1 class="page-heading"><label for="gsc-i-id1">Search</label></h1>
 
+  <my-search
+    webc:keep
+    :cx="site.googSearchId"
+  >
+    <site-busy-spinner webc:nokeep>
+      <p id="x-cse-loading"> Loading search … (Javascript) </p>
+    </site-busy-spinner>
+  </my-search>
 
-  <script>
+  <p webc:if="!site.enableJavascript">
+    [Site search & Javascript disabled.]
+  </p>
+
+  <script webc:nokeep>
   (function (document, L) {
     if (L.search.match(/[\?&]q=\w+/)) {
       var cx = '001222343498871500969:-u73i2qfu2s';
@@ -26,7 +38,12 @@ x-created:   2015-10-21
   })(window.document, window.location);
   </script>
 
-  <gcse:search><form><p id="x-cse-loading"> Search loading ... </p></form></gcse:search>
+  <!-- <gcse:search>
+    <form>
+      <p id="x-cse-loading"> Loading search … (Javascript) </p>
+      <site-busy-spinner webc:nokeep></site-busy-spinner>
+    </form>
+  </gcse:search> -->
 
 
   <p id="plugin"></p>

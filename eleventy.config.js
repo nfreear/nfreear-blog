@@ -22,6 +22,7 @@ module.exports = (eleventyConfig) => {
   // eleventyConfig.addPassthroughCopy('assets/fonts');
 
   eleventyConfig.addPassthroughCopy('css');
+  eleventyConfig.addPassthroughCopy('lib'); // Was: 'js'
   eleventyConfig.addPassthroughCopy('favicon.ico');
 
   layoutAlias.forEach(alias => {
@@ -31,7 +32,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.on('eleventy.after', async ({ dir, results, runMode, outputMode }) => {
     // console.debug('> 11ty.CFG:', eleventyConfig);
-    console.debug('> 11ty.After:', dir, runMode, outputMode); // Not: results;
+    console.debug('[11ty]', 'After:', dir, runMode, outputMode); // Not: results;
   });
 
   return {

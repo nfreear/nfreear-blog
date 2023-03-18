@@ -1,0 +1,36 @@
+
+<div class="site-busy-spinner">
+  <div class="spinner-text">
+    <slot>
+      <p> Loading &hellip; </p>
+    </slot>
+  </div>
+  <div class="spinner-animation"></div>
+</div>
+
+<style>
+.site-busy-spinner {
+  margin: 2rem auto;
+  text-align: center;
+}
+.site-busy-spinner .spinner-animation {
+  border: 2.5vh solid teal;
+  border-bottom-color: #ddd;
+  border-radius: 50%;
+  margin: 1rem auto;
+  height: 35vh;
+  width: 35vh;
+
+  animation-direction: normal;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; /* << +1 ! */
+  animation-play-state: running;
+  animation-name: Rotate;
+}
+
+@keyframes Rotate {
+  0%   { transform: rotateZ(0deg);  }
+  100% { transform: rotateZ(360deg); }
+}
+</style>

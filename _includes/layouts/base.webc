@@ -1,5 +1,5 @@
 <!doctype html>
-<html :lang="metadata.language">
+<html :lang="metadata.language" class="no-js">
 	<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,5 +40,11 @@
     <site-analytics webc:nokeep></site-analytics>
   </footer>
 
+  <script
+    webc:if="site.frontendJavascript"
+    webc:keep
+    :src="url('/lib/app.mjs')"
+    type="module"
+  ></script>
   </body>
 </html>

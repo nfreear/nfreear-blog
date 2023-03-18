@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Links & Bookmarks
-permalink: /links
+title: Bookmarks
+# title: Links & Bookmarks
+permalink: /links/
 x-nav-class: sr-only
 x-created:   2022-12-09
 ---
@@ -12,7 +13,11 @@ x-created:   2022-12-09
   include="accessibility,disability,usability,research,security,youtube"
   href="https://nfreear.github.io/bookmarks/feed.json"
   >
-  <my-busy-spinner class="loading-container">
-    <p> Loading bookmarks … </p>
-  </my-busy-spinner>
+  <site-busy-spinner webc:nokeep>
+    <p> Loading bookmarks … (Javascript) </p>
+  </site-busy-spinner>
 </my-feed>
+
+<p webc:if="!site.enableJavascript">
+  [Site search & Javascript disabled.]
+</p>

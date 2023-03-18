@@ -79,11 +79,21 @@ p:last-child {
 	margin-bottom: 0;
 }
 
+my-feed {
+	display: block;
+	margin: 2rem 0;
+}
+
 p,
 li {
 	line-height: 1.5;
 }
 
+my-feed::part(a) {
+	line-height: 2;
+}
+
+my-feed::part(a),
 a[href] {
 	color: var(--text-color-link);
 }

@@ -12,7 +12,12 @@
 </script>
 
 <img
-  webc:if="analytics.enable"
+  webc:if="analytics.enableGoatCounter"
   :src="`https://${analytics.gcId}.goatcounter.com/count?p=${_enc(analytics.host + page.url)}&t=${_enc(title)}&b=0`"
   alt=""
 />
+
+<my-analytics
+  webc:if="analytics.enableGoogleAnalytics"
+  :analytics-id="analytics.googleAID"
+></my-analytics>
