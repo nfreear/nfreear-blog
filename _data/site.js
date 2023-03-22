@@ -5,6 +5,7 @@
 const frontendJavascript = () => process.env.JS === '1';
 
 module.exports = {
+  enableJavascript: frontendJavascript(),
   frontendJavascript: frontendJavascript(),
   googSearchId: '001222343498871500969:-u73i2qfu2s',
 

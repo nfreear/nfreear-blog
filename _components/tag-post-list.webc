@@ -1,0 +1,28 @@
+<script webc:type="js" webc:is="template">
+  /**
+   * Output a list of posts for the tags in a collection.
+   *
+   * @attribute collection -
+   */
+
+  const { slugify, getAllTags, filterTagList } = this.helpers;
+  const PATH = nav.pathPrefix || '';
+
+  tagPostList(collection || collections.posts);
+
+  function tagPostList (collection) {
+    const TAGS = filterTagList(getAllTags(collection));
+
+    TAGS.sort((A, B) => A.tag < B.tag ? -1 : 1);
+
+    return TAGS.map((tag) => `<h2 id="${slugify(tag.tag)}">${tag.tag}</h2>
+    <ul>${listPostsForTag(tag)}</ul>`)
+      .join('\n');
+  }
+
+  function listPostsForTag (tag) {
+    return tag.posts.map((post) => `<li>
+    <a href="${PATH + post.url}">${post.data.title}</a></li>`)
+      .join('\n');
+  }
+</script>

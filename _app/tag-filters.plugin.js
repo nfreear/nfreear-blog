@@ -16,13 +16,14 @@ module.exports = (eleventyConfig) => {
 function getAllTags (collection) {
   const TAGS = [];
   // let tagSet = new Set();
-  for(let item of collection) {
+  for (let item of collection) {
     splitTags(item.data.tags).forEach((tag) => {
       const found = TAGS.find(el => el.tag === tag);
       if (found) {
         found.count++;
+        found.posts.push(item);
       } else {
-        TAGS.push({ tag, count: 1 });
+        TAGS.push({ tag, count: 1, posts: [ item ] });
       }
       // tagSet.add(tag)
     });

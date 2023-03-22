@@ -14,6 +14,13 @@ x-created: 2015-10-20
   <ul class="tag-cloud">
     <tag-list :collection="collections.posts" webc:nokeep></tag-list>
   </ul>
+</div>
+
+<hr>
+
+<div class="tag-post-list">
+
+  <tag-post-list :collection="collections.posts" webc:nokeep></tag-post-list>
 
 
   {% assign sorted_tags = site.tags | sort %}

@@ -11,6 +11,7 @@
 
   const { slugify, getGlobal, getAllTags, filterTagList } = this.helpers;
   const { Math } = getGlobal();
+  const PATH = '#';
 
   // console.log('>>> tag-list.webc:', this.helpers);
 
@@ -22,7 +23,7 @@
     TAGS.sort((A, B) => A.tag < B.tag ? -1 : 1);
 
     return TAGS.map((tag) => `<li data-n="${tag.count}">
-      <a href="/tag/${slugify(tag.tag)}" todo="@TODO slugify" style="${fontSizeVar(tag.count)}"><u>${tag.tag}</u> <n>(${tag.count})</n></a>
+      <a href="${PATH + slugify(tag.tag)}" todo="@TODO slugify" style="${fontSizeVar(tag.count)}"><u>${tag.tag}</u> <n>(${tag.count})</n></a>
     </li>`)
       .join('\n');
   }
@@ -39,7 +40,7 @@
 
     X-display: inline-flex;
     list-style: none;
-    margin: 0;
+    margin: 2rem 0;
     padding: 0;
   }
   .tag-cloud > * {
