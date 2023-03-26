@@ -34,6 +34,8 @@ module.exports = (eleventyConfig) => {
     return `&copy; ${now.getFullYear()}`; // ` Yours Truly.`;
   });
 
+  eleventyConfig.addFilter('reverse', (myArray) => [...myArray].reverse());
+
   eleventyConfig.addFilter('console', (ob) => console.log('>>>', ob));
 
   /** 'Math' and 'Date' globals are not directly available in WebC scripts - weird!

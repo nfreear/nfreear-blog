@@ -1,7 +1,6 @@
-
 <script webc:type="js" webc:is="template">
   /**
-   * Output a collection as a list.
+   * @DEPRECATED - Output a collection as a list.
    *
    * @TODO reverse
    * @attribute tag - Tag for the collection `tag="posts"`

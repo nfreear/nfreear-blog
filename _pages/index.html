@@ -8,22 +8,19 @@ permalink: /index.html
 
   <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in collections.posts reversed %}
-      <li>
-        {% capture date_format %}{{ site.date_format | default: "%b %-d, %Y" }}{% endcapture %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: nav.baseurl }}">{{ post.data.title }}</a>
-        </h2>
-        {% if site.excerpt_truncate %}
-          <p>{{ post.content | strip_html | truncatewords: site.excerpt_truncate,"&hellip;" }}
-          <a class="more" href="{{ post.url | prepend: nav.baseurl }}">More<i class="sr-only"> on {{ post.data.title }}</i></a>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
+  <ol reversed class="post-list" :style="'counter-reset: start-from ' + (collections.posts.length + 1)"
+    >
+    <li webc:for="(post, index) of reverse(collections.posts)" :data-idx="index + 1"
+      >
+      <h2><a class="post-link" :href="url(post.url)" @text="post.data.title"></a></h2>
+      <time class="post-meta" @text="readableDate(post.date)"></time>
+      <p webc:if="site.excerpt_truncate">
+        <t @html="strip_html(truncatewords(post.content, site.excerpt_truncate, '&hellip;'))" webc:nokeep></t>
+        <a class="more" :href="url(post.url)">More<i class="sr-only" @text="'on ' + post.data.title"></i></a>
+      </p>
+    </li>
+  </ol>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">Subscribe <a :href="url('/feed.xml')">via RSS</a></p>
 
 </div>

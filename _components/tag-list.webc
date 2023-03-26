@@ -1,38 +1,23 @@
 <script webc:type="js" webc:is="template">
   /**
-   * Output a list of tags for a collection.
+   * Output a tag-cloud for a collection.
    *
    * @attribute collection -
    */
 
-  // 'Math' is not directly available in WebC scripts - weird!
-  // const { Math, getAllTags, filterTagList } = require('./_app/tags.lib');
-  // const { Math } = require('./_components/externals.js');
-
-  const { slugify, getGlobal, getAllTags, filterTagList } = this.helpers;
-  const { Math } = getGlobal();
-  const PATH = '#';
-
-  // console.log('>>> tag-list.webc:', this.helpers);
-
-  tagList(collection || collections.posts);
-
-  function tagList (collection) {
-    const TAGS = filterTagList(getAllTags(collection));
-
-    TAGS.sort((A, B) => A.tag < B.tag ? -1 : 1);
-
-    return TAGS.map((tag) => `<li data-n="${tag.count}">
-      <a href="${PATH + slugify(tag.tag)}" todo="@TODO slugify" style="${fontSizeVar(tag.count)}"><u>${tag.tag}</u> <n>(${tag.count})</n></a>
-    </li>`)
-      .join('\n');
-  }
-
-  function fontSizeVar (count) {
-    return `--tc-log:${Math.log(count + 1)};--tc-log10:${Math.log10(count + 1)};`;
-    // return `--tc-font-size:${Math.log10(count + 1)}rem;`;
-  }
+''; // Prevent a ghost 'undefined'.
 </script>
+
+
+<ul class="tag-cloud">
+  <li webc:for="(item, index) of collections.myTags" :data-idx="index + 1" :data-nn="item.count"
+    >
+    <a :href="'#' + slugify(item.tag)" :style="fontSizeVar(item.count)">
+      <u @text="item.tag"></u> <n @text="`(${item.count})`"></n>
+    </a>
+  </li>
+</ul>
+
 
 <style>
   .tag-cloud {

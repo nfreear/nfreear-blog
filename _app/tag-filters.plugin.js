@@ -1,14 +1,42 @@
 /**
- * Functions to be used in the `tag-list` WebC component.
+ * Filters to be used in the `tag-list` WebC component.
+ *
+ * Add the "myTags" custom collection.
  *
  * @copyright Nick Freear, 05-Mar-2023.
  */
 
 module.exports = (eleventyConfig) => {
+  /**
+   * "myTags" custom collection.
+   */
+  eleventyConfig.addCollection('myTags', (collectionApi) => {
+    const POSTS = collectionApi.getFilteredByTag('posts');
+    const TAGS = sortTags(filterTagList(getAllTags(POSTS)));
+    // console.debug('>> addCollection - myTags:', Array.isArray(TAGS), TAGS.length, TAGS);
+    return TAGS;
+  });
+
+  /** Filters.
+   */
   eleventyConfig.addFilter('getAllTags', (collection) => getAllTags(collection));
 
   eleventyConfig.addFilter('filterTagList', (tags) => filterTagList(tags));
+
+  eleventyConfig.addFilter('sortGetTags', (collection) => {
+    return sortTags(filterTagList(getAllTags(collection)));
+  });
+
+  eleventyConfig.addFilter('fontSizeVar', (count) => {
+    count = parseInt(count);
+    return `--tc-log:${Math.log(count + 1)};--tc-log10:${Math.log10(count + 1)};`;
+    // return `--tc-font-size:${Math.log10(count + 1)}rem;`;
+  });
 };
+
+function sortTags (TAGS) {
+  return TAGS.sort((A, B) => A.tag < B.tag ? -1 : 1);
+}
 
 /**
  * @see https://github.com/11ty/eleventy-base-blog/blob/main/eleventy.config.js#L66-L76
@@ -45,5 +73,3 @@ function splitTags (tagArray) {
   });
   return TAGS;
 }
-
-// module.exports = { Math, getAllTags, filterTagList };

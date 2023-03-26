@@ -1,6 +1,6 @@
 <script webc:type="js" webc:is="template">
   /**
-   * Output a list of posts for the tags in a collection.
+   * @DEPRECATED - Output a list of posts for the tags in a collection.
    *
    * @attribute collection -
    */
@@ -8,7 +8,7 @@
   const { slugify, getAllTags, filterTagList } = this.helpers;
   const PATH = nav.pathPrefix || '';
 
-  tagPostList(collection || collections.posts);
+  // Was: tagPostList(collection || collections.posts);
 
   function tagPostList (collection) {
     const TAGS = filterTagList(getAllTags(collection));
@@ -25,4 +25,6 @@
     <a href="${PATH + post.url}">${post.data.title}</a></li>`)
       .join('\n');
   }
+
+''; // Prevent a ghost 'undefined'.
 </script>

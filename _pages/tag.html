@@ -9,38 +9,29 @@ x-created: 2015-10-20
 
   <h1 class="page-heading">Tags</h1>
 
-  <p>&rarr; <a href="/search/">You can also use site search</a>.</p>
+  <p>&rarr; <a :href="url('/search/')">You can also use site search</a>.</p>
 
-  <ul class="tag-cloud">
-    <tag-list :collection="collections.posts" webc:nokeep></tag-list>
-  </ul>
+  <hr>
+
+  <tag-list :collection="collections.myTags" webc:nokeep></tag-list>
+
 </div>
 
 <hr>
 
 <div class="tag-post-list">
 
-  <tag-post-list :collection="collections.posts" webc:nokeep></tag-post-list>
+  <it webc:for="(tag, index) of collections.myTags" webc:nokeep
+    >
+    <h2 :id="slugify(tag.tag)" :data-idx="index + 1" @text="tag.tag"></h2>
+    <ul>
+      <li webc:for="post of tag.posts"
+        >
+        <a :href="url(post.url)" @text="post.data.title"></a> &ndash; <time @text="readableDate(post.date)"></time>
+      </li>
+    </ul>
+  </it>
 
-
-  {% assign sorted_tags = site.tags | sort %}
-  {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-
-  {% for site_tag in sorted_tags %}
-    {% assign tag = site_tag | first %}
-    {% assign posts = site_tag | last %}
-
-  <h2 id="{{ tag | slugify }}">{{ tag }}</h2>
-  <ul>
-  {% for post in posts %}
-    {% if post.tags contains tag %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <time title="{{ post.date }}">{{ post.date | date: date_format  }}</time>
-    </li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-  {% endfor %}
+  <!-- <X-tag-post-list :collection="collections.posts" webc:nokeep></X-tag-post-list> -->
 
 </div>
