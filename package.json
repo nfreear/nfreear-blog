@@ -8,8 +8,9 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
-    "@11ty/eleventy-plugin-webc": "^0.8.1",
-    "luxon": "^3.2.1"
+    "@11ty/eleventy-plugin-webc": "^0.10.0",
+    "liquidjs": "^10.7.0",
+    "luxon": "^3.3.0"
   },
   "scripts": {
     "build": "JS=1 npx @11ty/eleventy",
@@ -25,7 +26,6 @@
   "author": "Nick Freear {@nfreear}",
   "license": "(MIT AND CC-BY-SA-4.0)",
   "homepage": "https://nick.freear.org.uk/",
-  "egg": "Happy birthday to you!",
   "keywords": [],
   "contributors": [],
   "x-count": {
