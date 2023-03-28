@@ -5,6 +5,7 @@
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
 	--font-family-monospace: Consolas, Monaco, 'Courier New', Courier, monospace;
+	--focus-line-width: 5px;
 }
 
 /* Theme colors */
@@ -27,7 +28,7 @@
 	:root {
 		--color-gray-20: #e0e0e0;
 		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dbd9d9; /* #dad8d8; */
+		--color-gray-90: #dbd9d9; /* Was: #dad8d8; */
 
 		/* --text-color is assigned to --color-gray-_ above */
 		--text-color-link: #5ccdf0; /* Was: #1493fb; */
@@ -40,7 +41,13 @@
 
 * {
 	outline-offset: .3rem;
-	text-underline-offset: .2rem;
+	text-underline-offset: .25rem;
+}
+
+:hover,
+:focus {
+	text-decoration-thickness: var(--focus-line-width);
+	transition: all .5s;
 }
 
 html,
@@ -86,7 +93,7 @@ my-feed {
 
 p,
 li {
-	line-height: 1.5;
+	line-height: 1.6;
 }
 
 my-feed::part(a) {
@@ -190,11 +197,18 @@ header {
 	display: inline-block;
 	margin-right: 1em;
 }
-.nav-item a[href]:not(:hover) {
+.nav-item a[href],
+.X-nav-item a[href]:not(:hover) {
 	text-decoration: none;
 }
+
+.nav a:hover,
+.nav a:focus,
 .nav a[href][aria-current="page"] {
+	outline-offset: .6rem;
 	text-decoration: underline;
+	text-decoration-thickness: var(--focus-line-width);
+	text-underline-offset: .3rem;
 }
 
 .post-list li {

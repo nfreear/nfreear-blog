@@ -10,14 +10,18 @@
        * @see _data/nav.js
        */
 
-      siteNav(tag);
+      const { log } = this.helpers;
 
-      function siteNav(tag) {
+      // log('>> Nav:', page);
+
+      siteNav(tag, page.url);
+
+      function siteNav(tag, currentUrl) {
         const TAG = tag || 'main';
         const PATH = nav.pathPrefix || '/';
         const PAGES = [];
 
-        // console.debug('Nav:', nav);
+        // log('Nav:', currentUrl, nav);
 
         nav[TAG].forEach((path) => {
           const found = collections.all.find(page => page.inputPath === path);
@@ -26,8 +30,8 @@
           }
         });
 
-        return PAGES.map((page) =>`<li class="nav-item">
-            <a href="${PATH + page.url}">${page.data.title}</a>
+        return PAGES.map((entry) =>`<li class="nav-item">
+            <a href="${PATH + entry.url}" ${currentUrl == entry.url ? 'aria-current="page"' : ''}>${entry.data.title}</a>
           </li>`)
           .join('');
       }

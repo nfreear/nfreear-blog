@@ -1,0 +1,60 @@
+
+<my-search
+  webc:keep
+  :cx="site.googSearchId"
+>
+  <site-busy-spinner webc:nokeep>
+    <p id="x-cse-loading"> Loading search … (Javascript) </p>
+  </site-busy-spinner>
+</my-search>
+
+<p webc:if="!site.enableJavascript">
+  [Site search & Javascript disabled.]
+</p>
+
+
+<style webc:keep>
+  /* Site search CSS overrides - must appear after "body"! */
+
+  .gsc-control-cse,
+  .gsc-control-cse *,
+  .gsc-webResult.gsc-result,
+  .gsc-webResult.gsc-result:hover,
+  .gs-webResult.gs-result a.gs-title:link,
+  .gs-webResult .gs-per-result-labels .gs-label,
+  .gs-webResult:not(.gs-no-results-result):not(.gs-error-result) .gs-snippet {
+    background-color: transparent;
+    /* border-color: rgba(127,127,127, .8); */
+    border-color: var(--color-gray-90);
+    color: var(--text-color);
+    line-height: 1.8;
+  }
+
+  .gsc-search-button-v2 {
+    border-width: 3px;
+    padding: .9rem 1.6rem;
+  }
+  .gsc-search-button-v2 svg {
+    height: 1.4rem;
+    width: 1.4rem;
+  }
+
+  .gs-webResult.gs-result a.gs-title:link {
+    color: var(--text-color-link);
+    text-decoration: underline;
+  }
+
+  .gs-webResult.gs-result a.gs-title:focus,
+  .gs-webResult.gs-result a.gs-title:hover {
+    text-decoration-thickness: 6px;
+  }
+
+  .gsc-adBlock {
+    display: none;
+  }
+
+  label {
+    display: inline-block;
+    margin-bottom: .3rem;
+  }
+</style>

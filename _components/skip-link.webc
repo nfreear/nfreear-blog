@@ -30,7 +30,7 @@
   background: var(--skip-link-bg, lightyellow);
   border: 2px solid darkorange;
   border-radius: .25rem;
-  color: var(--skip-link-color, teal);
+  color: var(--skip-link-color, #101e22); /* Was: teal */
   font-size: 1.1rem;
   height: auto;
   width: auto;

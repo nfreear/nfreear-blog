@@ -8,7 +8,7 @@
 
 module.exports = (eleventyConfig) => {
   /**
-   * "myTags" custom collection.
+   * The "myTags" custom collection.
    */
   eleventyConfig.addCollection('myTags', (collectionApi) => {
     const POSTS = collectionApi.getFilteredByTag('posts');
@@ -19,9 +19,9 @@ module.exports = (eleventyConfig) => {
 
   /** Filters.
    */
-  eleventyConfig.addFilter('getAllTags', (collection) => getAllTags(collection));
+  // Was: eleventyConfig.addFilter('getAllTags', (collection) => getAllTags(collection));
 
-  eleventyConfig.addFilter('filterTagList', (tags) => filterTagList(tags));
+  // eleventyConfig.addFilter('filterTagList', (tags) => filterTagList(tags));
 
   eleventyConfig.addFilter('sortGetTags', (collection) => {
     return sortTags(filterTagList(getAllTags(collection)));
@@ -29,7 +29,7 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addFilter('fontSizeVar', (count) => {
     count = parseInt(count);
-    return `--tc-log:${Math.log(count + 1)};--tc-log10:${Math.log10(count + 1)};`;
+    return `--tc-log:${Math.log(count + 1)};--tc-log10:${Math.log10(count + 1)};`; // --tc-n:${count};
     // return `--tc-font-size:${Math.log10(count + 1)}rem;`;
   });
 };
