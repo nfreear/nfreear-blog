@@ -3,7 +3,7 @@ published: true
 layout: post
 title:  "Review: Lainey Feingold: Accessibility Convincing - WebAIM"
 date:   2023-01-03 19:30:00
-tags:   stammer
+tags:   accessibility
 og-desc: A short description
 # og-image-00: https://c1.staticflickr.com/5/4076/35671915106_62be509598_z.jpg
 og-image-alt: ALT text.
