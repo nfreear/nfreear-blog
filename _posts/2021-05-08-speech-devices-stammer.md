@@ -21,7 +21,7 @@ The speech recognizer used by default in [Webchat][] (and many other speech user
 
 However, as soon as you're answering open-ended questions, or have a stammer/stutter or other dis-fluency, then it soon breaks down, and the Chat-bot cuts you off mid-response. I characterize that as _impatient_!
 
-Our answer was to develop an alternative, adaptive speech recognizer, built on Microsoft's [cognitive speech][] SDK. This was configured with a longer timeout for the open-ended questions in our Chat-bot's dialog, while recognizing and responding more quickly to the shorter closed responses like “_yes_“, “_no_“ and “_move on_“.
+Our answer was to develop an [alternative, adaptive speech recognizer][pasr], built on Microsoft's [cognitive speech][] SDK. This was configured with a longer timeout for the open-ended questions in our Chat-bot's dialog, while recognizing and responding more quickly to the shorter closed responses like “_yes_“, “_no_“ and “_move on_“.
 
 After some experimentation, we settled on a timeout of _1.75 seconds_ (a compromise between everyone's needs), and the adaptive speech recognizer was used successfully during the main trial for ADMINS. Always at the back of my mind was the question — could the speech recognizer adapt to the _speaker_, not just to the conversation?
 
@@ -43,6 +43,8 @@ See [research papers on ORO][oro], [Microsoft][ms] and [OU research news][ou-1].
   "Microsoft's Bot Framework Web Chat component, on GitHub."
 [cognitive speech]: https://github.com/Microsoft/cognitive-services-speech-sdk-js
   "Microsoft Cognitive Services Speech SDK for JavaScript, on GitHub."
+[pasr]: https://github.com/nfreear/dictation.git
+  "Patient, Adaptive Speech Recognizer, on GitHub [MIT License]"
 [twit-survey]: https://twitter.com/nfreear/status/1385986720928260096
   "“To all who #stutter/#stammer/have a disfluency from a stammerer- I'm interested in how speech-enabled Chatbots Alexa Siri & automated phone systems impact you. I'd love your responses to these Qs…”, tweet by @nfreear, 24-April-2021"
 [wcag]: https://www.w3.org/TR/WCAG21/
