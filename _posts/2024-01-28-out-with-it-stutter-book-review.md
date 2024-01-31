@@ -4,9 +4,9 @@ layout: post
 title:  "Out with it: How stuttering helped me find my voice"
 date:   2024-01-28 19:00:00
 tags:   stammer book review
-og-desc: A review of the book.
+og-desc: A review of the book by Katherine Preston.
 og-image-00: https://m.media-amazon.com/images/I/91UjuBTh2ML._SY522_.jpg
-og-image-alt: Out with it: How stuttering helped me find my voice, by Katherine Preston.
+og-image-alt: "Out with it: How stuttering helped me find my voice, by Katherine Preston."
 
 last_updated: 2024-01-28
 changefreq: daily
@@ -53,3 +53,4 @@ I heartily recommend [Katherine’s book][pub]!
   "Avoidance Reduction Therapy for Stuttering (ARTS®): An Overview"
 [qe]: https://en.wikipedia.org/wiki/Queen_Elizabeth_Hospital_Birmingham_(1933%E2%80%932010)
   "Original Queen Elizabeth Hospital, on Wikipedia"
+[qe history]: https://archive.uhb.nhs.uk/qe-history.htm
