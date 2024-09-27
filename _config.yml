@@ -27,6 +27,7 @@ url: "https://nick.freear.org.uk"
 #url: "http://nfreear.github.io" # the base hostname & protocol for your site
 twitter_username: nfreear
 github_username:  nfreear
+mastodon_url: https://mastodon.social/@ndf
 
 x-github-url: https://github.com/nfreear/nfreear.github.io
 
