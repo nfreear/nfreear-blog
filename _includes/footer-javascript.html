@@ -37,14 +37,18 @@
 
 <script src="https://unpkg.com/jquery@{{ PEER.jquery | default: '2.2.4' }}/dist/jquery.min.js"></script>
 {% comment %}<script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ PEER.jquery }}/jquery.min.js"></script>{% endcomment %}
+
+{% comment %}
 {% case page.url %}
 {% when '/index.html' or '/tag/' or '/search/' %}
 <script id="no-oembed"></script><!--no-embed-->
 {% else %}
 <script src="{{ PEER.jquery-oembed }}"></script>
 {% endcase %}
+
 <!--page.url: {{ page.url }} -->
 <script src="/js/main.js" type="module" async ></script>
+{% endcomment %}
 
 {% if page.layout == 'post' %}
 <script src="/js/comment.js"></script>
@@ -66,3 +70,17 @@
 {% endif %}
 
 <!--<pre>jQuery peer: {{ PEER.jquery }}</pre>-->
+
+<script type="importmap"> {
+  "imports": {
+    "ghp:my-elements": "https://nfreear.github.io/elements/i.js",
+    "unpkg:my-elements": "https://unpkg.com/ndf-elements@^1/i.js"
+  },
+  "myElements": {
+    "use": [ "my-analytics", "my-loom-embed", "my-skip-link" ]
+  }
+} </script>
+
+<script type="module">
+  import 'ghp:my-elements';
+</script>

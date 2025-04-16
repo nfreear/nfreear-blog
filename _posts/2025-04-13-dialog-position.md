@@ -2,7 +2,7 @@
 published: true
 layout: post
 title:  "Dialog-position"
-date:   2024-01-28 19:00:00
+date:   2025-04-13 19:00:00
 tags:   accessibility loom CSS style
 og-desc: ..
 og-image-00: ..
@@ -15,7 +15,9 @@ priority: 1.0
 
 In this video, I discuss the challenges we face with keyboard accessibility in modal dialogs and introduce a new [dialog-position][npm] package on NPM, that exposes a [stylesheet][css] to easily position native HTML [`<dialog>`][dlg] elements.
 
-[Enhancing Modal Dialog Accessiility][embed]
+<my-loom-embed>
+  [Enhancing Modal Dialog Accessiility][loom-embed]
+</my-loom-embed>
 
 <var>1</var>
 <time>00:00:00,000 --> 00:00:04,541</time>
@@ -217,39 +219,39 @@ based on a data attribute.
 <time>00:03:02,832 --> 00:03:06,811</time>
 Erm, so a `data-position` attribute.
 
-51</var>
+<var>51</var>
 <time>00:03:07,929 --> 00:03:11,848</time>
 Erm, these are the sort of values that you expect,
 
-52</var>
+<var>52</var>
 <time>00:03:11,849 --> 00:03:14,930</time>
 so top, bottom, left, right. And those results,
 
-53</var>
+<var>53</var>
 <time>00:03:14,931 --> 00:03:20,698</time>
 in full height and full with modal modals.
 
-54</var>
+<var>54</var>
 <time>00:03:21,816 --> 00:03:23,911</time>
 And then you can also use things like top,
 
-55</var>
+<var>55</var>
 <time>00:03:23,912 --> 00:03:26,412</time>
 hyphen, left, top, hyphen, right.
 
-56</var>
+<var>56</var>
 <time>00:03:26,413 --> 00:03:28,687</time>
 Bottom, hyphen, left, bottom,
 
-57</var>
+<var>57</var>
 <time>00:03:28,688 --> 00:03:31,070</time>
 hyphen, right. As well.
 
-58</var>
+<var>58</var>
 <time>00:03:31,071 --> 00:03:34,189</time>
 So, there you go.
 
-59</var>
+<var>59</var>
 <time>00:03:34,199 --> 00:03:38,449</time>
 this is, erm, and here's a [basic sort of demo][pen] that I put together,
 
@@ -290,7 +292,7 @@ to, make sure they're accessible.
 [css]: https://github.com/nfreear/native-html/blob/main/dialog/position/index.css
 [pen]: https://codepen.io/nfreear/pen/dPyLYyN
 [loom]: https://www.loom.com/share/51892e0880d84ee8a79c5765123af051?sid=ca874ff0-db12-4ada-b10b-24e747a445e7
-[embed]: https://www.loom.com/embed/51892e0880d84ee8a79c5765123af051?sid=511fc613-305d-49b4-a0ed-71a2505fd238
+[loom-embed]: https://www.loom.com/embed/51892e0880d84ee8a79c5765123af051?sid=511fc613-305d-49b4-a0ed-71a2505fd238
 [dlg]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog
 [caniuse]: https://caniuse.com/dialog
   "Can I use: 'dialog'? 96% support globally (April 2025)"
