@@ -16,7 +16,7 @@ priority: 1.0
 In this video, I discuss the challenges we face with keyboard accessibility in modal dialogs and introduce a new [dialog-position][npm] package on NPM, that exposes a [stylesheet][css] to easily position native HTML [`<dialog>`][dlg] elements.
 
 <my-loom-embed>
-  [Enhancing Modal Dialog Accessiility][loom-embed]
+  <a href="https://www.loom.com/share/51892e0880d84ee8a79c5765123af051?sid=ca874ff0-db12-4ada-b10b-24e747a445e7">Loom: Enhancing Modal Dialog Accessibility</a>
 </my-loom-embed>
 
 <var>1</var>
