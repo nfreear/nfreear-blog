@@ -1,0 +1,21 @@
+<my-analytics
+  analytics-id={{ site.js_config.analytics_id | jsonify}}
+  anonymize-ip="true"
+  no-cookies="true"
+></my-analytics>
+
+<script type="importmap">
+{
+  "imports": {
+    "ghp:my-elements": "https://nfreear.github.io/elements/i.js",
+    "unpkg:my-elements": "https://unpkg.com/ndf-elements@^1/i.js"
+  },
+  "myElements": {
+    "use": [ "my-analytics", "my-loom-embed", "my-search", "my-skip-link" ]
+  }
+}
+</script>
+
+<script type="module">
+  import 'ghp:my-elements';
+</script>
