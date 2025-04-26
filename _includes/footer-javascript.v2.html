@@ -4,6 +4,8 @@
   no-cookies="true"
 ></my-analytics>
 
+<my-site-counter gcid="ndf812"></my-site-counter>
+
 <script type="importmap">
 {
   "imports": {
@@ -11,7 +13,10 @@
     "unpkg:my-elements": "https://unpkg.com/ndf-elements@^1/i.js"
   },
   "myElements": {
-    "use": [ "my-analytics", "my-loom-embed", "my-search", "my-skip-link" ]
+    "use": [
+      "my-analytics", "my-codepen-embed", "my-loom-embed", "my-search",
+      "my-site-counter", "my-skip-link", "my-transcript"
+    ]
   }
 }
 </script>
