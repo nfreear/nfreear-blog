@@ -31,7 +31,7 @@
         margin: 2px 0;
     }
 
-  @include icon( "accessibilityassociation.org", "https://www.accessibilityassociation.org/resource/Favicon_c" );
+  @include icon( "accessibilityassociation.org", "https://www.accessibilityassociation.org/vforcesite/favicon.ico" );
 
   @include icon( "open.ac.uk", "https://www.open.ac.uk/favicon.ico" );
   //@include icon( "cloudworks.ac.uk", "https://cloudworks.ac.uk/themes/cloudworks/favicon.ico" );
@@ -46,7 +46,7 @@
   @include icon( "google.com"  , "https://www.google.com/favicon.ico" );
   // @include icon( "s.google.com", "https://plus.google.com/favicon.ico"); // plus., profiles.
 
-  @include icon( "mastodon.social", "https://mastodon.social/favicon.ico" );
+  @include icon( "mastodon.social", "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mastodon_logotype_%28simple%29_new_hue.svg" );
 
   @include icon( "twitter.com", "https://twitter.com/favicon.ico" );
   @include icon( "yahoo.co"   , "https://www.yahoo.com/favicon.ico" );
@@ -61,8 +61,9 @@
   @include icon( "codepen.io", "https://codepen.io/favicon.ico" );
   @include icon( "github.com", "https://github.com/favicon.ico" );
   @include icon( "bitbucket.org", "https://bitbucket.org/favicon.ico" );
+  @include icon( "npmjs.com", "https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg" );
   // @include icon( "npmjs.com", "https://static.npmjs.com/da3ab40fb0861d15c83854c29f5f2962.png" );
-  @include icon( "npmjs.com", "https://alternative.me/icons/npm.jpg" );
+  // @include icon( "npmjs.com", "https://alternative.me/icons/npm.jpg" );
   // @include icon( "npmjs.com", "https://avatars0.githubusercontent.com/u/6078720?s=16&v=4#!-npm" );
   @include icon( "packagist.org", "https://packagist.org/favicon.ico?v=1465471909" );
   @include icon( "travis-ci.org", "https://cdn.travis-ci.org/images/favicon-076a22660830dc325cc8ed70e7146a59.png" );
@@ -71,7 +72,7 @@
   @include icon( "openhub.net", "https://www.openhub.net/favicon.ico" );
   @include icon( "scraperwiki.com", "https://scraperwiki.com/wp-content/uploads/2013/10/favicon.ico" );
 
-  @include icon( "moodle.org", "https://moodle.org/theme/image.php/moodleorg/theme/000/favicon" );
+  @include icon( "moodle.org", "https://moodle.org/theme/moodleorg/pix/favicons/favicon-32.webp" );
   //Was: https://moodle.org/theme/image.php/moodleorgcleaned_moodleorg/theme/1436262404/favicons/org/favicon.ico // http://moodle.org/theme/moodleofficial/pix/favicon.ico ;
   // https://web.archive.org/web/20111103204554/http://www.gawds.org/show.php?contentid=71#!-Logos
   @include icon( "gawds.org", "https://web.archive.org/web/20111103204554im_/http://www.gawds.org/imageuploads/88_white.png");

@@ -51,6 +51,10 @@ You can find me all over the Web &hellip; :
 
 ---
 
+<my-open-badge>
+  [Certified Professional in Web Accessibility][cpwa-badge]
+</my-open-badge>
+
 [![QR code for Freear.org.uk, Google charts][QR]][QR]
 
 [![CloudEngine on Open HUB][oh-cloud]](https://openhub.net/p/cloudengine?ref=Thin+badge)
@@ -62,10 +66,14 @@ You can find me all over the Web &hellip; :
 
 <div data-toggle="github-widget" data-user="nfreear" data-limit="5" data-body="auto" data-footer="auto"></div>
 
-[iaap]: https://www.accessibilityassociation.org/s/cpwa-certificants#Certificants2
+[iaap]: https://www.accessibilityassociation.org/certification-portal/s/certified-professional-directory
+  "Certified Professional in Web Accessibility (CPWA)"
+[iaap-OLD]: https://www.accessibilityassociation.org/s/cpwa-certificants#Certificants2
   "Certified Professional in Web Accessibility (CPWA)"
 [iaap-cpacc]: https://www.accessibilityassociation.org/s/cpacc-certificants#:~:text=Freear
   "Certified Professional in Accessibility Core Competencies (CPACC)"
+[cpwa-badge]: https://www.credly.com/badges/4358516d-4cde-4de4-bcb0-db2f24b223c4
+  "Certified Professional in Web Accessibility, expires: August-2028."
 [iet]: https://web.archive.org/web/20210427202138/https://iet.open.ac.uk/people/nick.freear
   "Profile in the Institute of Educational Technology (IET), at The Open University"
 [ou]: http://www.open.ac.uk/people/ndf42 "Profile at, The Open University"
