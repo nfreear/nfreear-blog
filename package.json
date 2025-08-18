@@ -10,14 +10,15 @@
     "jekyll": "3.8.5"
   },
   "devDependencies": {
+    "eslint": "^9.33.0",
     "grunt": "^1.5.3",
     "grunt-cli": "^1.4.3",
     "grunt-contrib-jshint": "^3.2.0",
     "grunt-contrib-sass": "^2.0.0",
     "grunt-exec": "^3.0.0",
     "husky": "^5.2.0",
-    "pa11y-ci": "^1.3.1",
-    "semistandard": "^16.0.1"
+    "neostandard": "^0.12.2",
+    "pa11y-ci": "^1.3.1"
   },
   "x_cdnDependencies": {
     "jquery": "3.3.1",
@@ -40,11 +41,11 @@
     "version": "bundle exec jekyll --version",
     "count": "grunt exec:count",
     "pa11y-ci": "pa11y-ci --config .pa11yci.json",
-    "fix": "semistandard --fix",
+    "fix": "npx eslint --fix Grunt*",
     "new-post": "make new-post",
     "grep:elem": "grep -rn --exclude-dir=_site '<my-' .",
     "jsonlint": "php -r 'print_r(json_decode(file_get_contents(\"package.json\")));'",
-    "test": "grunt && semistandard",
+    "test": "grunt && npx eslint",
     "postinstall": "husky install"
   },
   "repository": "https://github.com/nfreear/nfreear.github.io",
