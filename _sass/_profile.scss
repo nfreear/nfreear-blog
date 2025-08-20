@@ -58,8 +58,9 @@
   @include icon( "youtube.com", "https://youtube.com/favicon.ico" );
   @include icon( "flickr.com" , "https://www.flickr.com/favicon.ico" );
 
-  @include icon( "codepen.io", "https://codepen.io/favicon.ico" );
+  @include icon( "codepen.io", "https://public.codepenassets.com/favicon/favicon.ico" );
   @include icon( "github.com", "https://github.com/favicon.ico" );
+  @include icon( "gitlab.com", "https://gitlab.com/favicon.ico" ); // Redirects!
   @include icon( "bitbucket.org", "https://bitbucket.org/favicon.ico" );
   @include icon( "npmjs.com", "https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg" );
   // @include icon( "npmjs.com", "https://static.npmjs.com/da3ab40fb0861d15c83854c29f5f2962.png" );
@@ -77,10 +78,11 @@
   // https://web.archive.org/web/20111103204554/http://www.gawds.org/show.php?contentid=71#!-Logos
   @include icon( "gawds.org", "https://web.archive.org/web/20111103204554im_/http://www.gawds.org/imageuploads/88_white.png");
   @include icon( "ERROR_gawds.org", "http://www.gawds.org/favicon.ico" ); // XX.
-  @include icon( "mozdev.org", "https://www.mozdev.org/favicon.ico" );
+  @include icon( "mycroftproject.com", "https://mycroftproject.com/images/favicon.ico" );
+  // Was: @include icon( "mozdev.org", "https://www.mozdev.org/favicon.ico" );
 
   @include icon( "gravatar.com", "https://en.gravatar.com/favicon.ico" );
-  @include icon( "cuwebd.ning", "https://cuwebd.ning.com/favicon.ico" );
+  // @include icon( "cuwebd.ning", "https://cuwebd.ning.com/favicon.ico" );
 
   @include icon( "openlibrary.org", "https://openlibrary.org/favicon.ico" );
   @include icon( "librarything.com", "https://www.librarything.com/favicon.ico" );

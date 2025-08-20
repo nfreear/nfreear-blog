@@ -31,13 +31,14 @@ You can find me all over the Web &hellip; :
 * [Flickr](https://flickr.com/photos/nfreear)
 * [CodePen](https://codepen.io/nfreear)
 * [GitHub](https://github.com/nfreear)
+* [GitLab](https://gitlab.com/nfreear)
 * [Bitbucket](https://bitbucket.org/nfreear)
 * [NPM: @nfreear](https://npmjs.com/~nfreear)
 * [Packagist: nfreear](https://packagist.org/packages/nfreear/)
 * [Travis-CI: nfreear](https://travis-ci.org/nfreear) and [IET-OU](https://travis-ci.org/IET-OU)
 * [ScraperWiki][scraperwiki] (archive)
 * [Yahoo! Pipes][pipes] (archive)
-* [Mycroft](https://mycroft.mozdev.org/search-engines.html?author=Nick+Freear "Search plugins")
+* [Mycroft](https://mycroftproject.com/search-engines.html?author=Nick+Freear "Search plugins")
 * [Cloudworks][cw-arch] (archive)
 * [Moodle.org](https://moodle.org/user/profile.php?id=93815)
 * [Libraries.io](https://libraries.io/github/nfreear/projects)
@@ -52,10 +53,10 @@ You can find me all over the Web &hellip; :
 ---
 
 <my-open-badge>
-  [Certified Professional in Web Accessibility][cpwa-badge]
+  <a href="https://www.credly.com/badges/4358516d-4cde-4de4-bcb0-db2f24b223c4">Certified Professional in Web Accessibility</a>
 </my-open-badge>
 
-[![QR code for Freear.org.uk, Google charts][QR]][QR]
+<!--[![QR code for Freear.org.uk, Google charts][QR]][QR]-->
 
 [![CloudEngine on Open HUB][oh-cloud]](https://openhub.net/p/cloudengine?ref=Thin+badge)
 
@@ -104,5 +105,9 @@ You can find me all over the Web &hellip; :
 
 [cw-arch]: https://web.archive.org/web/20180805142914/https://cloudworks.ac.uk/user/view/1040#!-N-Freear
     "Nick Freear on Cloudworks, archived August 2018."
+[mycroft-arch]: https://web.archive.org/web/20120314070551/http://mycroft.mozdev.org/search-engines.html?author=Nick+Freear
+    "Search plugins, archived: March-2012."
+[mendeley NF]: https://www.mendeley.com/search/?authorFullName=Nick%20Freear&query=Freear&
+[mendeley NF2]: https://www.mendeley.com/search/?query=Nicholas+Freear&
 
 [End]: //.
