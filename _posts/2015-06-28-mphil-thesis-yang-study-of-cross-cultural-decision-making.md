@@ -8,6 +8,7 @@ date:   2015-06-28 12:00:00
 x-date-deposited: 22 Jul 2016 09:28
 tags:   thesis  China  Yang
 x-url:  http://oro.open.ac.uk/id/eprint/46802
+x-doi:  https://doi.org/10.21954/ou.ro.0000b6d2
 x-pdf:  http://oro.open.ac.uk/46802/1/Yang-Guangyu-MPhil-thesis-July-2016-a11y-pdfa.pdf
 ---
 
@@ -64,7 +65,6 @@ manager's decision-making styles and process.
 In memory of my father Yu Pu YANG (杨玉璞), 1931–2004.
 And, my colleague and mentor Geoff Mallory (d. 2012).
 
-
 ## Acknowledgements
 
 I would like to acknowledge the support of my research supervisors: Anne Smith, Howard Viney and Tim Ray.
@@ -84,17 +84,19 @@ help; and my daughter, Rosie, for her patience and for bringing more happiness i
 
 ---
 
-* Copyright Holders:	2015 Guangyu Yang Freear. ©
+* Copyright Holders:	© 2015 Guangyu Yang Freear.
 * Keywords:	 decision-making; decision-making styles; cross-cultural study; China; France; management; expatriate managers; cognitive mapping;
 * URI:  <http://oro.open.ac.uk/id/eprint/46802>
+* DOI:  <https://doi.org/10.21954/ou.ro.0000b6d2>
 * Download: [PDF] (4 MB)
 * [Google Scholar][]
 * Total word count:  46,882 (including title page etc.)
   (6 chapters; 1 appendix; 20+ cognitive maps) / Pages: 235.
 
-
 [oro]: http://oro.open.ac.uk/id/eprint/46802
+[doi]: https://doi.org/10.21954/ou.ro.0000b6d2
 [Google Scholar]: http://scholar.google.co.uk/scholar?as_sauthors=G+Yang&as_q=A+Study+of+Cross-Cultural+Decision-Making+Styles%3A+Is+Cognitive+Mapping+an+Effective+Methodology+for+Data+Analysis%3F&as_occt=title
 [pdf]: http://oro.open.ac.uk/46802/1/Yang-Guangyu-MPhil-thesis-July-2016-a11y-pdfa.pdf
+[proquest]: https://www.proquest.com/docview/2154878441?sourcetype=Dissertations%20&%20Theses
 
 [End]: //

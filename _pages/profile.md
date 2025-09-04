@@ -39,7 +39,7 @@ You can find me all over the Web &hellip; :
 * [ScraperWiki][scraperwiki] (archive)
 * [Yahoo! Pipes][pipes] (archive)
 * [Mycroft](https://mycroftproject.com/search-engines.html?author=Nick+Freear "Search plugins")
-* [Cloudworks][cw-arch] (archive)
+* [Cloudworks][cw-arch] (archive | [archive 2][cw-ghp])
 * [Moodle.org](https://moodle.org/user/profile.php?id=93815)
 * [Libraries.io](https://libraries.io/github/nfreear/projects)
 * [Open HUB](https://openhub.net/accounts/nfreear "Formerly called 'Ohloh'")
@@ -52,7 +52,7 @@ You can find me all over the Web &hellip; :
 
 ---
 
-<my-open-badge>
+<my-open-badge add-style stylish>
   <a href="https://www.credly.com/badges/4358516d-4cde-4de4-bcb0-db2f24b223c4">Certified Professional in Web Accessibility</a>
 </my-open-badge>
 
@@ -79,7 +79,10 @@ You can find me all over the Web &hellip; :
   "Profile in the Institute of Educational Technology (IET), at The Open University"
 [ou]: http://www.open.ac.uk/people/ndf42 "Profile at, The Open University"
 [iet-OLD]: http://iet.open.ac.uk/people/n.d.freear
+[oro]: https://oro.open.ac.uk/view/person/ndf42.html
+  "Open Research Online - ORO: Nicholas Freear"
 [scholar]: https://scholar.google.com/scholar?as_q=&as_sauthors=%22N+Freear%22&as_sdt=1.&as_sdts=5
+[scholar-p]: https://scholar.google.com/citations?user=TE9fNcIAAAAJ&hl=en
 [pipes-X]: http://real.pipes.yahoo.com/pipes/person.info?guid=LW3IH5LT34QCKSVZW6WLSK2BYE#!_ARCHIVE_
 [pipes]: https://web.archive.org/web/20160408134939/http://real.pipes.yahoo.com/pipes/person.info?guid=LW3IH5LT34QCKSVZW6WLSK2BYE#
     "Archive, 08-April-2016 - Yahoo Pipes"
@@ -105,6 +108,8 @@ You can find me all over the Web &hellip; :
 
 [cw-arch]: https://web.archive.org/web/20180805142914/https://cloudworks.ac.uk/user/view/1040#!-N-Freear
     "Nick Freear on Cloudworks, archived August 2018."
+[cw-ghp]: https://iet-ou.github.io/cloudworks-ac-uk/user/view/1040.html
+    "Nick Freear on Cloudworks, archived on GitHub Pages, July 2019."
 [mycroft-arch]: https://web.archive.org/web/20120314070551/http://mycroft.mozdev.org/search-engines.html?author=Nick+Freear
     "Search plugins, archived: March-2012."
 [mendeley NF]: https://www.mendeley.com/search/?authorFullName=Nick%20Freear&query=Freear&
