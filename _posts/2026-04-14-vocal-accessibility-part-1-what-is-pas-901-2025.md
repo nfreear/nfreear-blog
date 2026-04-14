@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title:  Vocal Accessibility Part 1: What is PAS 901:2025?
+title:  "Vocal Accessibility Part 1: What is PAS 901:2025?"
 date:   2026-04-14 18:00:00
 tags:   accessibility, speech, stammer
 ---
@@ -11,14 +11,14 @@ The [Web Content Accessibility Guidelines (WCAG)][wcag2] are the leading interna
 It is in this context that [PAS 901:2025 Vocal accessibility in system design. Code of practice][pas] was published by the [British Standards Institute][bsi], in 2025. This post covers the background to the Code of Practice.
 
 <my-vimeo-embed>
-  <a href="https://vimeo.com/1181645509">Video: Vocal Accessibility Part 1</a>
+  <a href="https://vimeo.com/1181645509">Video: Vocal Accessibility Part 1, on Vimeo</a>.
 </my-vimeo-embed>
 
 ## Where did it come from?
 
 Between 2018 and 2025, the [Helen Hamlyn Centre for Design, at the Royal College of Art][rca] and [Tata Consultancy Services][tata] undertook research to, in their words, "better understand vocal interactions with technology and develop a set of accessibility guidelines for designers and technologists."
 
-Tata and the Helen Hamlyn Centre became the lead sponsors of _PAS 90:2025_, working with the other partners — [Axelrod Access for All][axelrod], [Google][], the [Indian Institutes of Technology][iit], [Microsoft][], Polyloop ([Whitelabel.ai][]), [Special Projects][], [University College London][ucl] and [University of York][york].
+Tata and the Helen Hamlyn Centre became the lead sponsors of _PAS 90:2025_, working with the other partners — [Axelrod Access for All][axelrod], [Google][], the [Indian Institute of Technology][iit], [Microsoft][], Polyloop (now, [Whitelabel.ai][]), [Special Projects][], [University College London][ucl] and [University of York][york].
 
 ## Who benefits?
 
@@ -46,14 +46,12 @@ That is the who. And, here is an incomplete list of the types of software and ha
 * Speech recognition software on desktop, tablet and mobile,
    - Includes operating system, assistive technologies ….
    - Speech-enabled (mobile) apps.
-* …
+* Voice navigation systems, for example in cars,
 * _… Anything else?_
 
 These technologies are covered both in the context of design and production by vendors, and procurement and deployment by third-parties.
 
-This concludes our introduction to [PAS 901:2025].
-
-<!-- Note, version 3 of WCAG still in development, does include speech. Yay! -->
+This concludes our introduction to [PAS 901:2025][pas].
 
 [wcag2]: https://www.w3.org/TR/WCAG22/
 [pas]: https://knowledge.bsigroup.com/products/vocal-accessibility-in-system-design-code-of-practice
