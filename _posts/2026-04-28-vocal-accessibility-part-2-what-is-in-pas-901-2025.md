@@ -2,7 +2,7 @@
 published: true
 layout: post
 title:  "Vocal Accessibility Part 2: What is in PAS 901:2025?"
-date:   2026-04-28 17:00:00
+date:   2026-04-27 18:00:00
 tags:   accessibility speech stammer
 ---
 
