@@ -3,7 +3,7 @@ published: true
 layout: post
 title:  "Vocal Accessibility Part 1: What is PAS 901:2025?"
 date:   2026-04-13 18:00:00
-tags:   accessibility, speech, stammer
+tags:   accessibility speech stammer
 ---
 
 The [Web Content Accessibility Guidelines (WCAG)][wcag2] are the leading international standard for digital accessibility, developed by the World Wide Web Consortium. Version 2.2 is the latest version, published as a recommendation in 2023, and it covers almost all disabilities to varying degrees, including vision, hearing, mobility/motor and cognitive/specific learning disabilities. The one disability it makes no mention of is speech. It just doesn't cover things like stammers/stutters and other impairments in this category. Which is a big omission.
@@ -51,7 +51,9 @@ That is the who. And, here is an incomplete list of the types of software and ha
 
 These technologies are covered both in the context of design and production by vendors, and procurement and deployment by third-parties.
 
-This concludes our introduction to [PAS 901:2025][pas].
+This concludes our introduction to [PAS 901:2025][pas]. In [part 2][], we will take a look in some depth at what the Code of Practice contains.
+
+[part 2]: https://nick.freear.org.uk/2026/04/28/vocal-accessibility-part-2-what-is-in-pas-901-2025.html
 
 [wcag2]: https://www.w3.org/TR/WCAG22/
 [pas]: https://knowledge.bsigroup.com/products/vocal-accessibility-in-system-design-code-of-practice

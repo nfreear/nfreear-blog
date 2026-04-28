@@ -395,15 +395,6 @@ my-busy-spinner,
   justify-content: center;
 }
 
-my-feed {
-  display: block;
-  min-height: 10rem;
-}
-
-my-feed::part(a) {
-  line-height: 2;
-}
-
 /* IntenseDebate accessibility [Bug: #3][a11y]
 */
 body #idc-container h3 {

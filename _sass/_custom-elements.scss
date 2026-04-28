@@ -1,0 +1,21 @@
+
+my-feed {
+  display: block;
+  min-height: 10rem;
+
+  &::part(a) {
+    line-height: 2;
+  }
+}
+
+my-codepen-embed,
+my-loom-embed,
+my-video-embed,
+my-transcript {
+  display: block;
+  margin: 1rem 0;
+
+  &::part(iframe) {
+    border-radius: .3rem;
+  }
+}
