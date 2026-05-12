@@ -53,7 +53,7 @@ These technologies are covered both in the context of design and production by v
 
 This concludes our introduction to [PAS 901:2025][pas]. In [part 2][], we will take a look in some depth at what the Code of Practice contains.
 
-[part 2]: https://nick.freear.org.uk/2026/04/28/vocal-accessibility-part-2-what-is-in-pas-901-2025.html
+[part 2]: https://nick.freear.org.uk/2026/04/27/vocal-accessibility-part-2-what-is-in-pas-901-2025.html
 
 [wcag2]: https://www.w3.org/TR/WCAG22/
 [pas]: https://knowledge.bsigroup.com/products/vocal-accessibility-in-system-design-code-of-practice
