@@ -11,26 +11,31 @@ x-footer-script: https://unpkg.com/github-widget@1.0.0/dist/bootstrap-github-wid
 
 You can find me all over the Web &hellip; :
 
-* [International Association of Accessibility Professionals][iaap]
-* [Profile at The Open University][iet] (archive)
-* [Facebook](https://fb.com/nick.freear)
+## Main
+
 * [LinkedIn](https://linkedin.com/in/nfreear/)
-<!-- * [Google+](https://plus.google.com/+NickFreear) -->
-* [Google Scholar][scholar]
+* [Facebook](https://fb.com/nick.freear)
 * [Mastodon: @ndf@mastodon.social](https://mastodon.social/@ndf)
+* [CodePen](https://codepen.io/nfreear)
+* [GitHub](https://github.com/nfreear)
+* [Google Scholar][scholar]
+* [Email: Nfreear at Yahoo.co.uk](mailto:Nfreear+@+yahoo.co.uk)
+* [International Association of Accessibility Professionals][iaap]
+
+## Other
+
+<!-- * [Google+](https://plus.google.com/+NickFreear) -->
 * [Twitter: @nfreear](https://twitter.com/@nfreear)
 * [Twitter: @AccessifyWiki](https://twitter.com/AccessifyWiki)
 * [Pinboard: ndf](https://pinboard.in/u:ndf)
 <!--* [Delicious: nfreear](http://del.icio.us/nfreear)-->
-* [Email: Nfreear at Yahoo.co.uk](mailto:Nfreear+@+yahoo.co.uk)
 * [LibraryThing](https://librarything.com/catalog/Nicholas.Freear)
 * [OpenLibrary](https://openlibrary.org/people/nfreear)
 * [Scoop.it](https://scoop.it/u/nick-freear)
 * [Slideshare](https://slideshare.net/nfreear)
 * [YouTube](https://youtube.com/user/NickFreear)
+* [Vimeo](https://vimeo.com/user119106564)
 * [Flickr](https://flickr.com/photos/nfreear)
-* [CodePen](https://codepen.io/nfreear)
-* [GitHub](https://github.com/nfreear)
 * [GitLab](https://gitlab.com/nfreear)
 * [Bitbucket](https://bitbucket.org/nfreear)
 * [NPM: @nfreear](https://npmjs.com/~nfreear)
@@ -48,6 +53,7 @@ You can find me all over the Web &hellip; :
 * [Mendeley](https://mendeley.com/profiles/nicholas-freear/)
 * [ORCiD](https://orcid.org/0000-0001-7791-5549 "Connecting Research and Researchers")
 * [Moodle 2 for Teaching 4-9 Year Olds Beginner's Guide][book-arch]
+* [Profile at The Open University][iet] (archive)
 
 
 ---
