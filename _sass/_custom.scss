@@ -97,6 +97,15 @@ img[ src *= "open-media-player/badge.svg" ] {
     width: 96px; height: 24px; // x 1.2;
 }
 
+.relax-list {
+  line-height: 1.75
+  margin: 2rem 0;
+
+  li {
+    margin: 0 0 .5rem;
+  }
+}
+
 a[ href *= _BIG_ME_ ],
 .big_me {
     text-align: center;
