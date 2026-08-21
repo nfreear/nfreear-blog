@@ -26,6 +26,8 @@ on:
 # Set the Job
 jobs:
   build:
+    if: ${{ false }} # <- Silently skip workflow/job.
+
     # Name the Job
     name: Lint Code Base
     # Set the agent to run on
