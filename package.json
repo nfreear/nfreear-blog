@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "name": "nfreear.github.io",
-  "version": "1.1.0",
+  "version": "1.9.6",
   "description": "Experimental! I'm re-developing my blog, using Jekyll and GitHub pages. | © 2009-2026 NDF.",
   "main": "./Gruntfile.js",
   "engines": {
@@ -28,7 +28,10 @@
     "google-analytics": "https://www.google-analytics.com/analytics.js#^1.0"
   },
   "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve --quiet",
     "lint": "npx eslint",
+    "test": "npx eslint",
     "count": "grunt exec:count",
     "pa11y-ci": "pa11y-ci --config .pa11yci.json",
     "new-post": "make new-post",
@@ -58,5 +61,16 @@
       "Gruntfile.js",
       "js/intensedebate"
     ]
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "@11ty/eleventy-img": "^7.0.0",
+    "@11ty/eleventy-navigation": "^1.0.5",
+    "@11ty/eleventy-plugin-rss": "^3.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "@zachleat/heading-anchors": "^1.0.5",
+    "luxon": "^3.7.2",
+    "prismjs": "^1.30.0",
+    "zod": "^4.4.3"
   }
 }
