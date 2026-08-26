@@ -1,23 +1,16 @@
 {
   "private": true,
+  "type": "module",
   "name": "nfreear.github.io",
   "version": "1.1.0",
-  "description": "Experimental! I'm re-developing my blog, using Jekyll and GitHub pages. | © 2009-2022 NDF.",
+  "description": "Experimental! I'm re-developing my blog, using Jekyll and GitHub pages. | © 2009-2026 NDF.",
   "main": "./Gruntfile.js",
   "engines": {
-    "node": ">= 11",
-    "ruby": "2.3.7p456",
-    "jekyll": "3.8.5"
+    "node": ">= 11"
   },
   "devDependencies": {
-    "eslint": "^9.33.0",
-    "grunt": "^1.5.3",
-    "grunt-cli": "^1.4.3",
-    "grunt-contrib-jshint": "^3.2.0",
-    "grunt-contrib-sass": "^2.0.0",
-    "grunt-exec": "^3.0.0",
-    "husky": "^5.2.0",
-    "neostandard": "^0.12.2",
+    "eslint": "^9.39.5",
+    "neostandard": "^0.13.0",
     "pa11y-ci": "^1.3.1"
   },
   "x_cdnDependencies": {
@@ -35,17 +28,12 @@
     "google-analytics": "https://www.google-analytics.com/analytics.js#^1.0"
   },
   "scripts": {
-    "build": "bundle exec jekyll build",
-    "serve": "bundle exec jekyll serve",
-    "start": "bundle exec jekyll serve --drafts --unpublished --future",
-    "version": "bundle exec jekyll --version",
+    "lint": "npx eslint",
     "count": "grunt exec:count",
     "pa11y-ci": "pa11y-ci --config .pa11yci.json",
-    "fix": "npx eslint --fix Grunt*",
     "new-post": "make new-post",
     "grep:elem": "grep -rn --exclude-dir=_site '<my-' .",
     "jsonlint": "php -r 'print_r(json_decode(file_get_contents(\"package.json\")));'",
-    "test": "grunt && npx eslint",
     "postinstall": "husky install"
   },
   "repository": "https://github.com/nfreear/nfreear.github.io",
@@ -57,8 +45,8 @@
   "contributors": [],
   "x-count": {
     "drafts": 23,
-    "posts": 65,
-    "total": 88
+    "posts": 66,
+    "total": 89
   },
   "husky-LEGACY": {
     "hooks": {
