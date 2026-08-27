@@ -28,7 +28,7 @@ The first one I'll talk about is [Calculated Objects][plugin], a Moodle question
 It extends the quiz activity module and allows teachers to create questions like
 
 
-{% highlight bash %}
+{% highlight 'bash' %}
     How much is {apples} + {oranges}?
 {% endhighlight %}
 

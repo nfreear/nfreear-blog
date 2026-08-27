@@ -26,7 +26,7 @@ HTML, in [RSS][] or [Atom][]. So, for RememberTheMilk we have,
 
 
 ```xml
-{% highlight xml %}
+{% highlight 'xml' %}
 <entry>
   ...
   <id>tag:rememberthemilk.com,1999:tasks-nfre ...</id>
@@ -43,7 +43,7 @@ HTML, in [RSS][] or [Atom][]. So, for RememberTheMilk we have,
 And for Google Calendar,
 
 ```xml
-{% highlight xml %}
+{% highlight 'xml' %}
 <entry xmlns="http://www.w3.org/2005/Atom">
   <id>http://www.google.com/calendar/feeds/d4 ... </id>
   <published>2009-02-18T18:08:04.000Z</published>
@@ -71,7 +71,7 @@ The [RSS 1.0 Event module][event] was published in 2001. It defines the elements
 So the Google Calendar entry above becomes something like,
 
 
-{% highlight xml %}
+{% highlight 'xml' %}
 <entry xmlns="..." xmlns:ev="http://purl.org/rss/1.0/modules/event/">
   <id>http://www.google.com/calendar/feeds/d4 ... </id>
   <published>2009-02-18T18:08:04.000Z

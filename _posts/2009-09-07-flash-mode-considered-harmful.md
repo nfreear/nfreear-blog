@@ -67,7 +67,7 @@ And providing '_text-only_' alternatives in the blanket fashion suggested at
 
 OK:
 
-{% highlight html %}
+{% highlight 'html' %}
 <object data="player.swf">
     <param name="wmode" value="window" />
     ...
@@ -75,10 +75,10 @@ OK:
 
 Inaccessible:
 
-{% highlight html %}
+{% highlight 'html' %}
     <param name="wmode" value="opaque" />
 {% endhighlight %}
-{% highlight html %}
+{% highlight 'html' %}
     <param name="wmode" value="transparent" />
 {% endhighlight %}
 

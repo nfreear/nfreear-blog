@@ -26,7 +26,7 @@ So, `<applet>` is valid in HTML 4 Loose (XHTML 1.0 Transitional), but not HTML 4
 Example embed for HTML 4.01:
 
 
-{% highlight html %}
+{% highlight 'html' %}
 <applet codebase="http://scratch.mit.edu/static/misc/" archive="ScratchApplet.jar"
         code="ScratchApplet" height="387" width="482">
    <param name="project" value="../../static/projects/technoguyx/355353.sb" >
@@ -43,7 +43,7 @@ with the help of the [W3C validator][w3c] – we can use the `<param>` element.
 Now, the HTML5 code:
 
 
-{% highlight html %}
+{% highlight 'html' %}
 <!DOCTYPE html><html lang="en"><meta charset=UTF-8 >
 
 <object tabindex="0" type="application/x-java-applet" height="387" width="482">

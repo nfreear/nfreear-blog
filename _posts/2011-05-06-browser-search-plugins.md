@@ -41,7 +41,7 @@ Follow the tips from Mozilla to create the plugin.
 Remember to use your site's favicon and so on.
 
 
-{% highlight xml %}
+{% highlight 'xml' %}
 <?xml ...?>
 <OpenSearchDescription xmlns=... >
     <ShortName> Cloudworks </ShortName>
@@ -55,7 +55,7 @@ Remember to use your site's favicon and so on.
 The next stage is to test it out. Create a HTML file that refers to your plugin XML like so:
 
 
-{% highlight html %}
+{% highlight 'html' %}
 <link
     rel="search"
     type="application/opensearchdescription+xml"
@@ -75,13 +75,13 @@ Mycroft is great, but you'll also want to integrate the plugin in your own site.
 Use the auto-discovery `<link>` above for compatibility with Firefox.
 For Internet Explorer and to make the plugin more visible consider some Javascript like the snippet below.
 This is a jQuery script to detect if the browser supports OpenSearch-based plugins.
-It adds a `<button>`` on the page corresponding to each search <link>.
+It adds a `<button>` on the page corresponding to each search <link>.
 
 {% comment %}
-{% gist nfreear/959786 %}
+{% gist "nfreear/959786" %}
 
 <!-- file-drupal-block_search-plugin-buttons-jquery-js -->
-<!--{% gist parkr/931c1c8d465a04042403 %}-->
+<!--{% gist "parkr/931c1c8d465a04042403" %}-->
 {% endcomment %}
 
 There is an [OpenSearch plugin for Drupal][drupal], and the snippet above can be

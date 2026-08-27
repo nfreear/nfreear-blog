@@ -47,7 +47,7 @@ This will be transparent to the end-user and the author of content.
 An author on a Wordpress blog will merely type something like:
 
 
-{% highlight xml %}
+{% highlight 'xml' %}
 [embed] http://podcast.open.ac.uk/pod/mst209-fun-of-the-fair#079b8e506c [/embed]
 {% endhighlight %}
 

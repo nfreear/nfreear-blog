@@ -47,7 +47,7 @@ Suppose we have the following snippet of HTML on a page — an image that when
 pressed using a mouse closes a dialog box within the page, via Javascript.
 
 ### HTML before
-{% highlight html linenos %}
+{% highlight 'html', 'linenos' %}
 <img
   src="close-button.png"
   onclick="closeDialog()"
@@ -59,7 +59,7 @@ There are various accessibility issues with the above HTML snippet, so below is 
 written in [YAML][] on the Accessify Wiki.
 
 ### The fix
-{% highlight yaml linenos %}
+{% highlight 'yaml', 'linenos' %}
 _CONFIG_:
     include:
         - http://example.org/*
@@ -97,7 +97,7 @@ quote characters used in JSON, making the result more readable.
 When the fix is [injected via Javascript](#anatomy-of-a-system), it results in the following HTML:
 
 
-{% highlight html linenos %}
+{% highlight 'html', 'linenos' %}
 <img
   src="close-button.png"
   onclick="closeDialog()"

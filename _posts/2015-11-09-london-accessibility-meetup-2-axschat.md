@@ -65,5 +65,5 @@ Run by [@neilmilliken](https://twitter.com/neilmilliken),
 [Jane Abbott]: https://twitter.com/pcrjanea
 [Mark Thomas]: https://twitter.com/piffle
 
-[next]: {% post_url 2009-06-26-standards-next-meetup%} "Standards.Next 2009"
+[next]: {% post_url '2009-06-26-standards-next-meetup' %} "Standards.Next 2009"
 [mini]: http://freear.org.uk/content/accessibility-london-mini-conference-2012 "#a11yLDN 2012"

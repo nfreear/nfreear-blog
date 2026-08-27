@@ -33,7 +33,7 @@ It can be embedded on a page with the following _two lines_ of HTML
 ```html
 <div id="isad-widget"></div>
 
-<script src="https://unpkg.com/isad-widget@{{ site.x_isad_version | default: '^1' }}#._.js"></script>
+<script src="https://unpkg.com/isad-widget@^1"></script>
 ```
 
 (_Thanks [unpkg][]!_)

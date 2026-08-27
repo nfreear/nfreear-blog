@@ -42,7 +42,7 @@ in any Flash embed code (this hides the Flash object entirely from screen reader
 
 4. Add 2 lines to the `<head>` element of your HTML pages, for example, for the page, `http://example.com/video/UnIqUe_Id`, add:
 
-{% highlight html %}
+{% highlight 'html' %}
 <link rel="alternate" type="application/json+oembed" title="My example"
   href="http://example.com/oembed?format=json&url=http%3A//example.com/video/UnIqUe_Id" />
 <link rel="alternate" type="application/xml+oembed" title="My example"

@@ -3,7 +3,7 @@ layout: post
 title:  Improving the accessibility of UserVoice
 date:   2009-07-16 12:01:00
 categories:
-tags:   accessibility  feedback  javascript  uservoice
+tags:   [ accessibility, feedback, javascript,  uservoice ]
 x-source:  http://freear.org.uk/content/improving-accessibility-uservoice
 x-comment-count: 4
 x-comments:
@@ -60,7 +60,7 @@ Take the UserVoice configuration array out of the function call and name it `uv`
 And replace the `MY_SITE` and `MY_KEY` options:
 
 
-{% highlight html linenos %}
+{% highlight 'html', linenos %}
 <body>
 …
 <script type="text/javascript">
@@ -88,27 +88,27 @@ for the feedback page, another for email (an alternative channel if all else fai
 It is important to note that these links will be hidden for all but keyboard-only users - step 5.
 Again, replace `MY_SITE` and ensure the email address is correct:
 
-    {% highlight html linenos %}
+{% highlight 'html', linenos %}
 <body>
   …
 <ul id="uservoice-feedback-noscript" lang="en">
   <li><a href="http://MY_SITE.uservoice.com/pages/general#">Feedback page</a></li>
   <li><a href="mailto:contact@MY_SITE.com?subject=MY_SITE%20feedback">Email feedback</a></li>
 </ul>
-    {% endhighlight %}
+{% endhighlight %}
 
 3. As our project uses the [YUI libraries][yui] I'm using the same my example.
     So, you may need to add these includes (other [libraries][] are available):
 
 
-    {% highlight html linenos %}
+{% highlight 'html', linenos %}
 <script type="text/javascript" src="http://yui.yahooapis.com/2.7.0/build/yahoo/yahoo-min.js"></script>
 <script type="text/javascript" src="http://yui.yahooapis.com/2.7.0/build/event/event-min.js"></script>
-    {% endhighlight %}
+{% endhighlight %}
 
 4. Now add the critical piece of Javascript, below your YUI library includes.
 
-{% highlight html linenos %}
+{% highlight 'html', linenos %}
 <script type="text/javascript">
 YAHOO.util.Event.onAvailable('uservoice-feedback-tab', function(){
   var no = document.getElementById('uservoice-feedback-noscript');
@@ -127,7 +127,7 @@ YAHOO.util.Event.onAvailable('uservoice-feedback-tab', function(){
 And, add these style declarations to your page or external CSS file (note the
 `:active` pseudo-selector is a fix for Internet Explorer 6 - it doesn't recognise `:focus`):
 
-{% highlight css linenos %}
+{% highlight 'css', linenos %}
 .uservoice-accesshide {
   position:absolute;
   top:-999px;

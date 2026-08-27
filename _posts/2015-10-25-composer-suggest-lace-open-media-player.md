@@ -56,7 +56,7 @@ followed by free text that can optionally contain tags (eg. `postratings`, `[LAC
 
 Here's a short JSON example:
 
-{% highlight json %}
+{% highlight 'json' %}
 "suggest": {
     "wpackagist-plugin/wp-postratings": "1.82; postratings [LACE] & [OERRH]"
 }
@@ -65,7 +65,7 @@ Here's a short JSON example:
 
 Here is a [longer example][ex-2]:
 
-{% highlight json linenos %}
+{% highlight 'json', 'linenos' %}
 "require": {
     "php": ">=5.3.3",
     "fancyguy/webroot-installer": "1.1.0",
@@ -103,14 +103,14 @@ regular expression.
 A simple example of a single keyword in the `.env` file:
 
 
-{% highlight bash %}
+{% highlight 'bash' %}
 # LACE Evidence Hub - single keyword.
 NF_COMPOSER_SUGGEST = "LACE"
 {% endhighlight %}
 
 And, a more [complex example][ex-1e] of a regular expression in the `.env` file -- all suggestions containing the pipe-separated keywords will be installed:
 
-{% highlight bash %}
+{% highlight 'bash' %}
 # LACE - regular expression.
 NF_COMPOSER_SUGGEST = "(LACE|Exp-LA|CFTP-Facet-1.2|WP-4.3.1)"
 {% endhighlight %}

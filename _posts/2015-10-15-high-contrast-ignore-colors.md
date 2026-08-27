@@ -68,7 +68,7 @@ computer's operating system colours -- whatever they may be.
 An example follows from the [LACE project][css] --
 note this is applied to SVG, hence the use of `stroke`:
 
-{% highlight css %}
+{% highlight 'css' %}
 .ignore-color svg #sandisplay .link {
         stroke: Highlight;
 }
@@ -84,7 +84,7 @@ In "normal" mode, the bars in the diagram are a light grey.
 The next CSS example is applied to form fields, and uses the pre-defined term `ButtonText`.
 Note, the `border-style` property must be `inset` to overcome a Firefox restriction or bug.
 
-{% highlight css %}
+{% highlight 'css' %}
 /* Firefox requires "inset" in ignore-color mode for form fields. */
 .ignore-color input, .ignore-color textarea {
         border: 2px inset ButtonText;
