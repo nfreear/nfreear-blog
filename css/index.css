@@ -27,7 +27,7 @@
 		--color-gray-90: #dad8d8;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
+		--text-color-link: #34b3fd; /* NDF: Was: #1493fb; */
 		--text-color-link-active: #6969f7;
 		--text-color-link-visited: #a6a6f8;
 
@@ -39,6 +39,8 @@
 /* Global stylesheet */
 * {
 	box-sizing: border-box;
+	outline-offset: .2rem;
+	text-underline-offset: .2rem;
 }
 
 @view-transition {
@@ -96,11 +98,11 @@ p:last-child {
 	margin-bottom: 0;
 }
 p {
-	line-height: 1.5;
+	line-height: var(--line-height, 1.5);
 }
 
 li {
-	line-height: 1.5;
+	line-height: var(--line-height, 1.5);
 }
 
 a[href] {

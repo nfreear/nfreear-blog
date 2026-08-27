@@ -21,10 +21,29 @@ export default function compatPlugin (eleventyConfig) {
   });
 
   /**
+   * Permalinks: /2026/08/26/file-slug.html
+   */
+  eleventyConfig.addGlobalData('permalink', () => {
+    return (data) => {
+      const { date, fileSlug, inputPath, outputFileExtension } = data.page;
+
+      if (inputPath.includes('_posts')) {
+        const M = inputPath.match(/.+\/((19|20)\d{2}-\d{2}-\d{2})-.+/);
+        const strDate = M ? M[1] : null;
+        // console.debug('Post:', strDate, inputPath);
+
+        const jsDate = DateTime.fromJSDate(date) ?? DateTime.fromFormat('yyyy-MM-dd', strDate);
+
+        return `${jsDate.toFormat('yyyy/MM/dd')}/${fileSlug}.${outputFileExtension}`;
+      }
+    };
+  });
+
+  /**
    * Shortcodes.
    */
-  eleventyConfig.addPairedShortcode('highlight', (content) => {
-    return content;
+  eleventyConfig.addPairedShortcode('highlight', (content, lang, linenos = null) => {
+    return '```' + lang + content + '\n```\n';
   });
 
   eleventyConfig.addPairedShortcode('comment', (content) => {
