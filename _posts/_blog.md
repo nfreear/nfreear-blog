@@ -1,3 +1,6 @@
+---
+published: false
+---
 
 ## Analytics for 1 year
 
