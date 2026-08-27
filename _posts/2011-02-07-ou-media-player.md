@@ -3,7 +3,7 @@ layout: post
 title:  OU media player project
 date:   2011-02-07 14:09:00
 x-created: 2015-12-03 19:23
-tags:   accessibility  Flash  HTML5  maltwiki  multimedia  oembed  ou  video
+tags:   [ accessibility, Flash, HTML5, maltwiki, multimedia, oEmbed, OU, video ]
 x-source:  http://freear.org.uk/content/ou-media-player-project
 x-comment-cnt: 5
 x-comments:

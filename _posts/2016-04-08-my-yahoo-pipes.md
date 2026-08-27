@@ -3,7 +3,7 @@ published: false
 layout: post
 title:  My Yahoo! Pipes
 date:   2016-04-08
-tags:   archive
+tags:   [ archive ]
 x-gdoc: https://docs.google.com/document/d/1zIh2Uo4d_8d0349jwyTkwGKY4KZvsAq9Mc-5bUQLb6k/#
 ---
 

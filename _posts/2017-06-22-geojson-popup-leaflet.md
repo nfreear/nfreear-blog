@@ -4,7 +4,7 @@ layout: post
 title:  Rich GeoJSON popups for Leaflet
 date:   2017-06-27 21:55
 x-created: 2017-06-22 18:00
-tags:   NPM  javascript  e-learning  map
+tags:   [ NPM, javascript, e-learning, map ]
 og-desc:  Add GeoJSON-based templated popups to your Leaflet map. See the audio-player example.
 og-image: https://c1.staticflickr.com/5/4266/35188676900_b385b4ec42_z.jpg
 ## og-image: https://c1.staticflickr.com/5/4253/35188195970_8e2fa3dd1e_z.jpg

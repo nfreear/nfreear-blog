@@ -3,7 +3,7 @@ layout: post
 title:  Embed a Scratch applet in HTML5
 date:   2010-05-23 01:19:00
 categories:
-tags:   applet  drum  embed  HTML5  java  scratch
+tags:   [ applet, drum, embed, HTML5, java, scratch ]
 x-source:  http://freear.org.uk/content/embed-scratch-applet-html5
 x-comments: 1
 x-comment-url: http://freear.org.uk/content/embed-scratch-applet-html5#comment-1361

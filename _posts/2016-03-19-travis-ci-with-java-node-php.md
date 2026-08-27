@@ -5,7 +5,7 @@ title:  Travis-CI with multiple languages
 date:   2016-03-19 08:45:00
 x-created: 2016-03-19 08:45:00
 categories:
-tags:   testing  Java  Node  PHP
+tags:   [ testing, java, Node, php ]
 ---
 
 

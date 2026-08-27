@@ -4,7 +4,7 @@ title:  Open University regional centre closures – petition
 date:   2015-10-25 13:48:00 +0000
 x-created: 2015-10-23 00:30:00
 categories:
-tags:   OU  regions  petition
+tags:   [ OU, regions, petition ]
 ---
 
 

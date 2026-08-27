@@ -3,7 +3,7 @@ layout: post
 title:  My accessibility top 10 do’s and don’ts
 date:   2012-10-25 14:34:00
 categories:
-tags:   accessibility
+tags:   [ accessibility ]
 x-source:  http://freear.org.uk/content/my-accessibility-top-10-dos-and-donts
 x-comment-count: 1
 x-comments:

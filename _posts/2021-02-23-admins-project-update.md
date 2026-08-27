@@ -3,7 +3,7 @@ x-csp-disable: true
 layout: post
 title:  ADMINS project — update
 date:   2021-02-23 16:30:00
-tags:   IET-OU  OpenUniversity  OU  project
+tags:   [ IET-OU, OpenUniversity, OU, project ]
 og-desc: A short description
 # og-image-00: https://c1.staticflickr.com/5/4076/35671915106_62be509598_z.jpg
 og-image-alt: ALT text.

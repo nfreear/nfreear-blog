@@ -3,7 +3,7 @@ published: true
 layout: post
 title:  Speech-devices and stammering
 date:   2021-05-08 08:30:00
-tags:   stammer
+tags:   [ stammer ]
 og-desc: A short description
 # og-image-00: https://c1.staticflickr.com/5/4076/35671915106_62be509598_z.jpg
 og-image-alt: ALT text.

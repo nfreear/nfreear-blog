@@ -3,7 +3,7 @@ published: false
 layout: post
 title:  Jekyll Migration
 date:   2015-10-01 11:54:00
-tags:   blog SSG
+tags:   [ blog, SSG ]
 ---
 
 * [Initial commit of my (re-developed) personal blog][commit_1],

@@ -3,7 +3,7 @@ published: false
 layout: post
 categories: research
 title:  "BEng project: Applied Gerontology/ Ergonomics"
-tags:   archive  thesis  Birmingham  gerontology  user-centred
+tags:   [ archive, thesis, Birmingham, gerontology, user-centred ]
 date:   1997-05-01
 ---
 

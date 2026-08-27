@@ -3,7 +3,7 @@ layout: post
 title:  iSpot February 2015
 date:   2015-02-23 15:30:00
 categories:
-tags:   drupal  ispot  OU  IET-OU
+tags:   [ drupal, ispot, OU, IET-OU ]
 x-source: http://freear.org.uk/content/ispot-february-2015
 x-gdoc: https://docs.google.com/document/d/1N61tN0pEssA-QOLkvR1uDojVZzRPf26-iXApXXQXq0U#
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  Sometimes I s-start to stutter
 date:   2010-04-05 08:38:00
 categories:
-tags:   stammer  stutter
+tags:   [ stammer, stutter ]
 x-source: http://freear.org.uk/content/sometimes-i-s-start-stutter
 ---
 

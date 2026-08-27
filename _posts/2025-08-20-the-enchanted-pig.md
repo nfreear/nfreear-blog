@@ -3,7 +3,7 @@ published: true
 layout: post
 title:  The Enchanted Pig
 date:   2025-08-20 20:00:00
-tags:   
+tags:   []
 og-desc: ..
 og-image-00: ..
 og-image-alt: ..

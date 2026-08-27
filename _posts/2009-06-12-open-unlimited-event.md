@@ -3,7 +3,7 @@ published: false
 layout: post
 title:  Open Unlimited
 date:   2009-06-12 19:28:00
-tags:   event 40th openday ou waltonhall
+tags:   [ event, 40th, openday, OU, waltonhall ]
 WB: /20160707130500/http://freear.org.uk/content/open-unlimited
 # Fri, 12/06/2009 - 19:28.
 ---

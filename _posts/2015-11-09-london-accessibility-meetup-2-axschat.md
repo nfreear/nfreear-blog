@@ -4,7 +4,7 @@ title:  "London Accessibility Meetup #2: learn & share"
 date:   2015-11-12 10:05:00
 x-created: 2015-11-09 10:10:00
 categories:
-tags:   html5  accessibility  event  workshop  london  uk
+tags:   [ HTML5, accessibility, event, workshop, london, uk ]
 x-type: event
 x-event-start: 2015-12-09 19:00 +0000
 x-event-url: http://www.meetup.com/London-Accessibility-Meetup/

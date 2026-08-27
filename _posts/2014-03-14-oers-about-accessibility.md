@@ -3,7 +3,7 @@ layout: post
 title:  OERs about accessibility
 date:   2014-03-14 14:45:00
 categories:
-tags:   accessibility  e-learning  oer
+tags:   [ accessibility, e-learning, oer ]
 x-source: http://freear.org.uk/content/oers-about-accessibility
 x-gdoc:
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  SoLAR Flare workshop – LACE evidence hub accessibility
 date:   2015-10-09 15:57:00
 categories:
-tags:   accessibility  analytics  IET-OU   LACE  event  workshop
+tags:   [ accessibility, analytics, IET-OU, LACE, event, workshop ]
 x-type: event
 x-event-start: 2015-10-09 09:30 +0100
 x-note: Friday, 9 October 2015 from 09:30 to 16:30 (BST)

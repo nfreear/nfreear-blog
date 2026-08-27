@@ -3,7 +3,7 @@ layout: post
 title:  Browser search plugins
 date:   2011-05-06 21:25:00
 categories:
-tags:   browser  CloudEngine  cloudworks  JIME  OU  plugin  search
+tags:   [ browser, CloudEngine, cloudworks, JIME, OU, plugin, search ]
 x-source: http://freear.org.uk/content/browser-search-plugins
 x-comment-count: 1
 x-comments:

@@ -6,7 +6,7 @@ author: Guangyu Yang Freear
 title:  "A Study of Cross-Cultural Decision-Making Styles: Is Cognitive Mapping an Effective Methodology for Data Analysis?"
 date:   2015-06-28 12:00:00
 x-date-deposited: 22 Jul 2016 09:28
-tags:   thesis  China  Yang
+tags:   [ thesis, China, Yang ]
 x-url:  http://oro.open.ac.uk/id/eprint/46802
 x-doi:  https://doi.org/10.21954/ou.ro.0000b6d2
 x-pdf:  http://oro.open.ac.uk/46802/1/Yang-Guangyu-MPhil-thesis-July-2016-a11y-pdfa.pdf

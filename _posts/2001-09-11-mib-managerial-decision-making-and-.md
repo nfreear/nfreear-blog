@@ -5,7 +5,7 @@ categories: research
 author: Guangyu Yang Freear
 title:  Managerial Decision Making and Leadership
 date:   2011-09-11 12:00:00
-tags:   thesis  China  Yang
+tags:   [ thesis, China, Yang ]
 ---
 
 [École Supérieure de Commerce Marseille-Provence][ecole]

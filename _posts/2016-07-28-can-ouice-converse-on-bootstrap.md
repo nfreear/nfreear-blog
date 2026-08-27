@@ -4,7 +4,7 @@ title:  Please can OUICE converge on Bootstrap, soon?
 date:   2016-07-28 11:45:00
 x-created: 11:45
 x-published: about 12:30(!)
-tags:   OU  IET-OU  design  webdev
+tags:   [ OU, IET-OU, design, webdev ]
 ---
 
 

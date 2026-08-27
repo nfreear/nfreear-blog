@@ -3,7 +3,7 @@ layout: post
 title:  Standards.next meetup
 date:   2009-06-26 10:07:00
 categories:
-tags:   html5  accessibility  event  workshop  london  uk
+tags:   [ HTML5, accessibility, event, workshop, london, uk ]
 x-source: http://freear.org.uk/content/standardsnext-meetup
 x-type: event
 x-event-start: 2009-06-27 13:00

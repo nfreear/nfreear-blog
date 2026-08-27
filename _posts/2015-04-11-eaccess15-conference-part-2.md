@@ -4,7 +4,7 @@ title:  e-Access'15 conference part 2
 date:   2015-04-11 15:53:00
 x-created: 25 February 2015
 categories:
-tags:   accessibility  conference  event  london  uk
+tags:   [ accessibility, conference, event, london, uk ]
 x-source: http://freear.org.uk/content/e-access15-conference-part-2
 x-gdoc: https://docs.google.com/document/d/1nKXK7L2vjmPiBtiq-PgfgjZWopnr7RdNW451R7GvUAY/#
 x-previous: /2015/03/03/eaccess15-conference.html#!prev

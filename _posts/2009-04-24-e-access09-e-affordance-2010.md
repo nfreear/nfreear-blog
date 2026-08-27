@@ -3,7 +3,7 @@ published: false
 layout: post
 title:  e-access'09 - e-Affordance 2010
 date:   2009-04-24 11:54:00
-tags:   accessibility conference event
+tags:   [ accessibility, conference, event ]
 WB: https://web.archive.org/web/20130509224909/http://freear.org.uk/content/e-access09-e-affordance-2010
 # e-access'09 - e-Affordance 2010
 # by nick | Fri, 24/04/2009 - 11:543

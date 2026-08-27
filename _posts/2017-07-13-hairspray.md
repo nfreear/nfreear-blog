@@ -2,7 +2,7 @@
 layout: post
 title:  Hairspray (RARE)
 date:   2017-07-11 17:48:00
-tags:   theatre  milton-keynes
+tags:   [ theatre, milton-keynes ]
 og-desc: I'm happy to say Rosie is in the RARE production of Hairspray at Stantonbury Theatre, 13th and 15th July.
 og-image: http://stantonburytheatre.co.uk/media/2211/hairspray_web.jpg?crop=0,0.1032817,0,0.097118&cropmode=percentage&width=825&height=440#
 og-image-alt: Hairspray poster.

@@ -4,7 +4,7 @@ layout: post
 title:  My Custom Elements
 date:   2023-02-19 12:30:00
 permalink: /2023/02/19/my-custom-elements.html
-tags:   javascript HTML
+tags:   [ javascript, HTML ]
 og-desc: A short description
 # og-image-00: https://c1.staticflickr.com/5/4076/35671915106_62be509598_z.jpg
 og-image-alt: ALT text.

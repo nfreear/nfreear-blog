@@ -3,7 +3,7 @@ published: true
 layout: post
 title:  "Dialog-position"
 date:   2025-04-13 19:00:00
-tags:   accessibility loom CSS style
+tags:   [ accessibility, loom, css, style ]
 og-desc: ..
 og-image-00: ..
 og-image-alt: ..

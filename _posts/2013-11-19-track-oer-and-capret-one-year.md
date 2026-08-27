@@ -3,7 +3,7 @@ layout: post
 title:  Track OER and CaPRéT, one year on
 date:   2013-11-19 22:02:00
 categories:
-tags:   analytics  OU  project  TrackOER
+tags:   [ analytics, OU, project, TrackOER ]
 x-source: http://freear.org.uk/content/track-oer-and-capret-one-year
 ---
 

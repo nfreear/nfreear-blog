@@ -3,7 +3,7 @@ layout: post
 title:  Flash wmode considered harmful
 date:   2009-09-07 08:21:00
 categories:
-tags:   accessibility  embed  Flash
+tags:   [ accessibility, embed, Flash ]
 x-source: http://freear.org.uk/content/flash-wmode-considered-harmful
 x-comment-count: 6
 x-comments:

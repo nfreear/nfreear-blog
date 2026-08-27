@@ -3,7 +3,7 @@ layout: post
 title:  MALT Wiki player with personalization mockup
 date:   2009-10-12 13:04:00
 categories:
-tags:   accessibility  Flash  maltwiki  multimedia  oembed
+tags:   [ accessibility, Flash, maltwiki, multimedia, oEmbed ]
 x-source:  http://freear.org.uk/content/malt-wiki-player-personalization-mockup
 x-comment-cnt: 0
 ---

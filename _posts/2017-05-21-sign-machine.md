@@ -2,7 +2,7 @@
 layout: post
 title:  Sign-machine rebooted
 date:   2017-05-22 17:23
-tags:   NPM  accessibility  javascript  e-learning
+tags:   [ NPM, accessibility, javascript, e-learning ]
 ## permalink: /sm/
 x-footer-script: https://unpkg.com/sign-machine@2.1.0-beta/src/sign-machine.js
 x-footer-script-01: https://unpkg.com/sign-machine@2.1.0-beta#._.js

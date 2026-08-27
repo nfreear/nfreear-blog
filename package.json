@@ -28,13 +28,18 @@
     "google-analytics": "https://www.google-analytics.com/analytics.js#^1.0"
   },
   "scripts": {
+    "clean": "rm -rf _site",
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve --quiet",
     "lint": "npx eslint",
+    "lint:fix": "npx eslint --fix",
     "test": "npx eslint",
+    "retag": "node ./_bin/rewriteTags.js",
     "count": "grunt exec:count",
     "pa11y-ci": "pa11y-ci --config .pa11yci.json",
     "new-post": "make new-post",
+    "grep": "node ./_bin/grepPosts.js",
+    "grep:high": "grep -rn '{% highlight' _posts",
     "grep:elem": "grep -rn --exclude-dir=_site '<my-' .",
     "jsonlint": "php -r 'print_r(json_decode(file_get_contents(\"package.json\")));'",
     "postinstall": "husky install"

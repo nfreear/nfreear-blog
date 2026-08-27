@@ -3,7 +3,7 @@ layout: post
 title:  Moodle Calculated Objects question type
 date:   2011-10-05 22:31:00
 categories:
-tags:   [ book, moodle, "#moodle4-9", plugin, school, quiz ]
+tags:   [ moodle4-9, book, moodle, plugin, school, quiz ]
 x-tags: #book #moodle #moodle4-9 plugin  primary school  qtype question quiz
 x-source: http://freear.org.uk/content/moodle-calculated-objects
 x-comments: 3

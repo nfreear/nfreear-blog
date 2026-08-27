@@ -3,7 +3,7 @@ layout: post
 title:  5 steps to being an oEmbed provider
 date:   2009-11-08 02:14:00
 categories:
-tags:   oEmbed
+tags:   [ oEmbed ]
 x-source: http://freear.org.uk/content/5-steps-being-oembed-provider
 ---
 

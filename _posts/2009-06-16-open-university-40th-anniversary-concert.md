@@ -3,7 +3,7 @@ published: false
 layout: post
 title:  The Open University 40th Anniversary Concert
 date:   2009-06-16 09:32:00
-tags:   40th choir concert mktheatre org-OU ou
+tags:   [ 40th, choir, concert, mktheatre, org-OU, OU ]
 WB: /20160707065626/http://freear.org.uk/content/open-university-40th-anniversary-concert
 # by nick | Tue, 16/06/2009 - 09:32.
 ---

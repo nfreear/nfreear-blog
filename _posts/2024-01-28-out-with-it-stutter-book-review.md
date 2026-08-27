@@ -3,7 +3,7 @@ published: true
 layout: post
 title:  "Out with it: How stuttering helped me find my voice"
 date:   2024-01-28 19:00:00
-tags:   stammer book review
+tags:   [ stammer, book, review ]
 og-desc: A review of the book by Katherine Preston.
 og-image-00: https://m.media-amazon.com/images/I/91UjuBTh2ML._SY522_.jpg
 og-image-alt: "Out with it: How stuttering helped me find my voice, by Katherine Preston."

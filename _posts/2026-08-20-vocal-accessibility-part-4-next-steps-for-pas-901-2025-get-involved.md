@@ -3,7 +3,7 @@ published: true
 layout: post
 title:  "Vocal Accessibility Part 4: Next steps for PAS 901:2025 and speech accessibility – get involved!"
 date:   2026-08-20 18:00:00
-tags:   accessibility speech stammer
+tags:   [ accessibility, speech, stammer ]
 ---
 
 In [part 3][] of the blog series, I described some problems that I percieve with [PAS 901:2025 Vocal accessibility in system design][pas].

@@ -3,7 +3,7 @@ published: true
 layout: post
 title:  "Vocal Accessibility Part 2: What is in PAS 901:2025?"
 date:   2026-04-27 18:00:00
-tags:   accessibility speech stammer
+tags:   [ accessibility, speech, stammer ]
 ---
 
 In [part 1][] of this series of blog posts, we looked at where the [PAS 901:2025 Vocal Accessibility Code of Practice][pas] came from, what technologies are covered by it, and who it is for.

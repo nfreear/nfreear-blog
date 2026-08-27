@@ -2,7 +2,7 @@
 layout: post
 title:  The King's Speech portrays stammering well
 date:   2011-01-14 23:02:00
-tags:   bsa  movie  stammer
+tags:   [ bsa, movie, stammer ]
 x-source:  http://freear.org.uk/content/kings-speech-portrays-stammering-well
 x-comment-cnt: 4
 x-comments:

@@ -5,7 +5,7 @@ title:  Accessify Wiki
 date:   2016-01-06 17:30:00
 x-created: 2015-11-14 20:40:00
 categories:
-tags:   accessibility  WAI-ARIA  javascript
+tags:   [ accessibility, WAI-ARIA, javascript ]
 ---
 
 

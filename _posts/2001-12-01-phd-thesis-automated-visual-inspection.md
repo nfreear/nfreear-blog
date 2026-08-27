@@ -5,7 +5,7 @@ categories: research
 title:  "PhD: Automated Visual Inspection for the Quality Control of Pad Printing"
 date:   2001-12-01 12:00:00
 x-created: 2015-12-03 17:05
-tags:   archive  PhD  thesis
+tags:   [ archive, PhD, thesis ]
 x-url:  https://etheses.bham.ac.uk/890/
 x-gdoc: https://docs.google.com/document/d/1F59mVj4Xi2RkB2x_X_g0vYPaO8V2QzjYQmflgyAd7UM#
 ---

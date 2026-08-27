@@ -4,7 +4,7 @@ layout: post
 author: Nick Freear, Rebecca Galley
 title:  "CloudEngine: creating networks for professional development and research (SEDA)"
 date:   2011-11-18
-tags:   archive  OU  Cloudworks  event
+tags:   [ archive, OU, cloudworks, event ]
 x-pdf:  http://www.seda.ac.uk/resources/files/38_Freear.pdf
 ---
 

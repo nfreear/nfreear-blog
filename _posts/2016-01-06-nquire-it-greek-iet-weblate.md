@@ -4,7 +4,7 @@ layout: post
 title:  nQuire-it in Greek, IET-Weblate and stuff
 date:   2016-01-06 18:00:00
 x-created: 2016-01-06 14:20:00
-tags:   Angular.JS  translation
+tags:   [ Angular.JS, translation ]
 ---
 
 

@@ -7,7 +7,7 @@ date:   2016-01-06 17:30:00
 x-created:  16:32, 3 June 2013
 x-wiki-last-edit: 13:07, 15 July 2013‎
 categories:
-tags:   accessibility  WAI-ARIA  javascript
+tags:   [ accessibility, WAI-ARIA, javascript ]
 x-wiki-urls:
   - http://accessify.wikia.com/wiki/Proposal?veaction=edit
   - http://accessify.wikia.com/wiki/Proposal?action=history

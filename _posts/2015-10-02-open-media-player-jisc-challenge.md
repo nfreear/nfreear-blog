@@ -4,7 +4,7 @@ title:  Open Media Player – Jisc Accessible by Design challenge
 date:   2015-10-02 13:19:00
 x-errata-data: 2 November 2015 11:44
 categories:
-tags:   accessibility  IET-OU   multimedia   oEmbed  OU  ouplayer  Jisc  errata
+tags:   [ accessibility, IET-OU, multimedia, oEmbed, OU, ouplayer, Jisc, errata ]
 ---
 
 

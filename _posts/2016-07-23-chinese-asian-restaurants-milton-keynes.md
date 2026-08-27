@@ -2,7 +2,7 @@
 layout: post
 title:  Chinese & asian restaurants & food in Milton Keynes
 date:   2016-07-23 09:00:00
-tags:   China  Asia  food  milton-keynes  map
+tags:   [ China, Asia, food, milton-keynes, map ]
 ---
 
 

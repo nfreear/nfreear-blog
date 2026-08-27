@@ -3,7 +3,7 @@ published: false
 layout: post
 title:  Join the Kit-Cat club
 date:   2009-04-18 10:39:00
-tags:   accessibility place
+tags:   [ accessibility, place ]
 WB: /20120302024247/http://freear.org.uk/content/join-kit-cat-club
 ---
 

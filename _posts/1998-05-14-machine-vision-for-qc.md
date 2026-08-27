@@ -3,7 +3,7 @@ published: false
 layout: post
 categories: research
 title:  Machine vision for quality control of intelligent pad printing
-tags:   Birmingham
+tags:   [ Birmingham ]
 date:   1998-05-14
 isbn:   0704419343
 ---

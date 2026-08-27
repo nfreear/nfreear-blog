@@ -3,7 +3,7 @@ published: true
 layout: post
 title:  "Vocal Accessibility Part 3: A critique of PAS 901:2025, and testing"
 date:   2026-05-12 08:00:00
-tags:   accessibility speech stammer
+tags:   [ accessibility, speech, stammer ]
 ---
 
 In this post, I’m presenting a critique of [PAS 901:2025 Vocal accessibility in system design][pas]. This follows on from the [Part 2][] post, where I quoted some of the content from the Code of Practice, particularly Part 5, System Design.
