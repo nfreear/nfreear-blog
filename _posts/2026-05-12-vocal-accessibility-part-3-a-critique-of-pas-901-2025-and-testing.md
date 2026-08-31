@@ -10,15 +10,15 @@ In this post, I’m presenting a critique of [PAS 901:2025 Vocal accessibility i
 
 I need to preface the critique with two points. First, _PAS 901:2025_ is a really important document, the result of a lot of hard work, and the first time anyone has tried to describe and specify what Vocal Accessibility should entail. This critique is written in the spirit of wanting to take this valuable work and build on it. And second, I believe that _PAS 901:2025_ was developed with a design mindset, whereas I with my _Accessibility Consultant_ hat on, view it more through a testing and auditing lens.
 
-<my-vimeo-embed>
+{% myembed %}
   <a href="https://vimeo.com/1188154327">Video: Vocal Accessibility Part 3, on Vimeo</a>.
-</my-vimeo-embed>
+{% endmyembed %}
 
 ## Critique 1: not open
 
 The first critique concerns _openness_ in all its forms. [PAS 901:2025][pas] is published as a [DRM][]-protected PDF through the BSI shop, where you need to register an account, add it to your shopping basket and checkout. It costs £0.00 _(GBP)_. It is [copyright][] "© The british Standards Institution 2025", and carries the statement or warning "No copying without BSI permission except as permitted by copyright law".
 
-As the Code of Practice is published as a PDF and is behind a paywall, it is not possible to [deep link][] to different sections. By contrast, this is something that is straightforward with, for example, the _Web Content Accessibility Guidelines_, where you can link to the [whole standard][wcag], one [principle][wcag:p-1], a [guideline][wmcag:g-1.1] or an individual [Success Criterion][wcag:sc-1.1.1] ([W3C license][]).
+As the Code of Practice is published as a PDF and is behind a paywall, it is not possible to [deep link][] to different sections. By contrast, this is something that is straightforward with, for example, the _Web Content Accessibility Guidelines_, where you can link to the [whole standard][wcag], one [principle][wcag:p-1], a [guideline][wcag:g-1.1] or an individual [Success Criterion][wcag:sc-1.1.1] ([W3C license][]).
 
 It is worth noting that the PDF is [untagged][], and therefore not accessible to those using assistive technologies such as screen readers.
 
@@ -87,12 +87,12 @@ And, there is always an alternative to an audit-type approach in the form of div
 
 That concludes my critique of [PAS 901:2025][pas], and our discussion of testing challenges and methods.
 
-[part 2]: https://nick.freear.org.uk/2026/04/27/vocal-accessibility-part-2-what-is-in-pas-901-2025.html
-[part 3]: https://nick.freear.org.uk/2026/05/12/vocal-accessibility-part-3-a-critique-of-pas-901-2025-and-testing.html
+[part 2]: /2026/04/27/vocal-accessibility-part-2-what-is-in-pas-901-2025.html
+[part 3]: /2026/05/12/vocal-accessibility-part-3-a-critique-of-pas-901-2025-and-testing.html
 [part 3:video]: https://vimeo.com/1188154327
 
 [pas]: https://knowledge.bsigroup.com/products/vocal-accessibility-in-system-design-code-of-practice
-[bsi license]: https://knowledge.bsigroup.com/pages/licensing]
+[bsi license]: https://knowledge.bsigroup.com/pages/licensing
 [copyright]: https://www.gov.uk/copyright
 [law]: https://www.legislation.gov.uk/ukpga/1988/48/contents
 [deep link]: https://en.wikipedia.org/wiki/Deep_linking

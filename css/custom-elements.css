@@ -1,0 +1,63 @@
+:root {
+  --abbr-pos: top center;
+}
+
+my-abbr {
+  cursor: help;
+
+  &::part(a) {
+    color: white;
+    cursor: help;
+    text-decoration-style: dotted;
+  }
+  &::part(popover) {
+    border-radius: .3rem;
+    font-size: smaller;
+    min-width: 10rem;
+  }
+}
+
+q-link {
+  cursor: help;
+
+  &::part(a) {
+    color: #acf;
+  }
+  &::part(popover) {
+    background: #f6e9cd; /* #F3E5AB; */
+    X_box-shadow: 0 0 3px 2px silver;
+    border: 1px solid gray;
+    border-radius: .3rem;
+    font-size: smaller;
+    min-width: 10rem;
+  }
+}
+
+x-icon {
+  display: inline-block;
+
+  svg {
+    width: 1.9rem;
+    height: 1.9rem;
+    background: #012;
+    padding: .2rem;
+  }
+
+  .icon-mit {
+    height: 20px;
+    width: 80px;
+    padding: 0;
+  }
+}
+
+icon-link {
+  &::part(svg) {
+    height: 20px;
+    width: 80px;
+  }
+
+  &::part(popover) {
+    font-size: smaller;
+    min-width: 10rem;
+  }
+}

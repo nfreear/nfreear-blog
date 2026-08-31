@@ -10,37 +10,37 @@ In [part 1][] of this series of blog posts, we looked at where the [PAS 901:2025
 
 In this post, we’re going to delve deeper into the actual contents of the PAS. The Code of Practice comprises a foreword, 6 parts and 3 annexes, as can be seen in the table of contents below. We are going to concentrate on parts 4 "Goals and user accessibility needs approach", and 5 "General design".
 
-```blockquote
-"Foreword `. . . . . . . . . . . . . . . . . . . . . . . . . . . .`	ii
-0 Introduction `. . . . . . . . . . . . . . . . . . . . . . . . . .` 	iv
-1 Scope `. . . . . . . . . . . . . . . . . . . . . . . . . . . . . `	1
-2 Normative references `. . . . . . . . . . . . . . . . . . . . . . `	3
-3 Terms, definitions and abbreviated terms `. . . . . . . . . . . . . `	4
-4 Goals and user accessibility needs approach `. . . . . . . . . . . . ` 	8
-5 General design `. . . . . . . . . . . . . . . . . . . . . . .  . .`	11
-Annex A (informative) An exemplar using accessibility goals and needs `. . . `	25
-Annex B (normative) Procurement scenarios `. . . . . . . . . . . . . . . `	41
-Annex C (normative) List of additional user accessibility needs `. . . . . ` 	42
-Bibliography `. . . . . . . . . . . . . . . . . . . . . . . . . . .  `	44"
+```toc
+"Foreword . . . . . . . . . . . . . . . . . . . . . . . . . ii
+0 Introduction . . . . . . . . . . . . . . . . . . . . . .  iv
+1 Scope . . . . . . . . . . . . . . . . . . . . . . . . . .  1
+2 Normative references . . . . . . . . . . . . . . . . . . . 3
+3 Terms, definitions and abbreviated terms . . . . . . . . . 4
+4 Goals and user accessibility needs approach . . . . . . .  8
+5 General design . . . . . . . . . . . . . . . . . . . . .   11
+Annex A (informative) An exemplar using accessibility goals & needs . .25
+Annex B (normative) Procurement scenarios . . . . . . . . .  41
+Annex C (normative) List of additional user accessibility needs . .42
+Bibliography . . . . . . . . . . . . . . . . . . . . . . . . 44"
 ```
 
 Part 4 _(page 8)_ builds on [ISO/IEC 29138-1:2018, Information technology – User interface accessibility – Part 1: User accessibility needs][iso 29138] and outlines how to document the accessibility requirements, including vocal accessibility needs, during the design and procurement of a product or service. It is key to the whole approach espoused by _PAS 901:2025_.
 
-<my-vimeo-embed>
+{% myembed %}
   <a href="https://vimeo.com/1182998047">Video: Vocal Accessibility Part 2, on Vimeo</a>.
-</my-vimeo-embed>
+{% endmyembed %}
 
 Part 5 "General design" contains a series of clauses and sub-clauses under the following 8 headings:
 
-```blockquote
-"5.1 Multimodality `. . . . . . . . . . . . . . . . . . . . . . . . . `	11
-5.2 Language `. . . . . . . . . . . . . . . . . . . . . . . . . . . `	12
-5.3 Speech processing `. . . . . . . . . . . . . . . . . . . . . . . `	13
-5.4 Interaction `. . . . . . . . . . . . . . . . . . . . . . . . . . .`	15
-5.5 Feedback, error prevention and error correction `. . . . . . . . . . `	19
-5.6 Privacy and trust `. . . . . . . . . . . . . . . . . . . . . . . . `	21
-5.7 Speech technology services `. . . . . . . . . . . . . . . . . . . `	23
-5.8 Training `. . . . . . . . . . . . . . . . . . . . . . . . . . . . `	24"
+```toc
+"5.1 Multimodality . . . . . . . . . . . . . . . . . . . . 11
+5.2 Language . . . . . . . . . . . . . . . . . . . . . . . 12
+5.3 Speech processing . . . . . . . . . . . . . . . . . .  13
+5.4 Interaction . . . . . . . . . . . . . . . . . . . . .  15
+5.5 Feedback, error prevention and error correction . . .  19
+5.6 Privacy and trust . . . . . . . . . . . . . . . . . .  21
+5.7 Speech technology services . . . . . . . . . . . . . . 23
+5.8 Training . . . . . . . . . . . . . . . . . . . . . . . 24"
 ```
 
 We’ll go through some examples of the sub-clauses in order, starting at the beginning with "5.1.1 Individualization" _(page 11)_:
@@ -79,8 +79,8 @@ Hopefully, the above quotes and discussion have given you a flavour of what is c
 
 In [part 3][] I’ll present a critique of _PAS 901:2025_, and considerations for testing.
 
-[part 1]: https://nick.freear.org.uk/2026/04/13/vocal-accessibility-part-1-what-is-pas-901-2025.html
-[part 3]: https://nick.freear.org.uk/2026/05/12/vocal-accessibility-part-3-a-critique-of-pas-901-2025-and-testing.html
+[part 1]: /2026/04/13/vocal-accessibility-part-1-what-is-pas-901-2025.html
+[part 3]: /2026/05/12/vocal-accessibility-part-3-a-critique-of-pas-901-2025-and-testing.html
 [part 2:video]: https://vimeo.com/1182998047
 [pas]: https://knowledge.bsigroup.com/products/vocal-accessibility-in-system-design-code-of-practice
 [iso 29138]: https://knowledge.bsigroup.com/products/information-technology-user-interface-accessibility-user-accessibility-needs

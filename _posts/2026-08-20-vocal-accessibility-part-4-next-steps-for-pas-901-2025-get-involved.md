@@ -10,7 +10,7 @@ In [part 3][] of the blog series, I described some problems that I percieve with
 
 One of the main ones was the lack of open-access to the Code of practice, and how that is likely to reduce the awareness of, use and discussions around it. Given that I believe that it is an important standard, can we change this?
 
-Another important consideration is what else is going on in this area, and can the _PAS_ contribute to, and align with it? One answer to that is the development of the [W3C Accessibility Guidelines (WCAG) 3.0][wcag3], which is currently in draft form. Unlike previous versions of WCAG, which made no mention of speech, this one has a [Guideline 2.4.4 on Speech and voice input][2.4.4], which starts,
+Another important consideration is what else is going on in this area, and can the _PAS_ contribute to, and align with it? One answer is the development of the [W3C Accessibility Guidelines (WCAG) 3.0][wcag3], which is currently in draft form. Unlike previous versions of WCAG, which made no mention of speech, this one has a [Guideline 2.4.4 on Speech and voice input][2.4.4], which starts,
 
 > Provide alternatives to speech input and facilitate speech control.
 
@@ -42,9 +42,9 @@ Here are my broad suggestions:
 * Speech scientists and developers
 * Collaborators from different parts of the world
 
-<my-vimeo-embed>
+{% myembed %}
   <a href="https://vimeo.com/1218681481">Video: Vocal Accessibility Part 4, on Vimeo</a>.
-</my-vimeo-embed>
+{% endmyembed %}
 
 ## Summary
 
@@ -60,7 +60,7 @@ I am keen to hear from any individuals and groups who would like to help make te
 
 [Contact me][] to get involved!
 
-[part 3]: https://nick.freear.org.uk/2026/05/12/vocal-accessibility-part-3-a-critique-of-pas-901-2025-and-testing.html
+[part 3]: /2026/05/12/vocal-accessibility-part-3-a-critique-of-pas-901-2025-and-testing.html
 [video 4]: https://vimeo.com/1218681481
 [pas]: https://knowledge.bsigroup.com/products/vocal-accessibility-in-system-design-code-of-practice
 [wcag3]: https://w3c.github.io/wcag3/guidelines/ "W3C Editor's Draft"
