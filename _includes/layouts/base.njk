@@ -64,11 +64,16 @@
 
 		<footer>
 			<p>
-				<em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em>
+				<small>
+				  Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a>
+				  &middot;
+				  Source: <a href="{{ metadata.repo.url }}">{{ metadata.repo.name }}</a>
+			  </small>
 			</p>
 		</footer>
 
 		<!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->
 		<script type="module" src="{% getBundleFileUrl "js" %}"></script>
+
 	</body>
 </html>

@@ -193,6 +193,12 @@ code {
 	word-break: break-all;
 }
 
+blockquote {
+	border-left: .5rem solid gray;
+	padding-left: 1rem;
+	margin-left: 1rem;
+}
+
 /* Header */
 header {
 	display: flex;

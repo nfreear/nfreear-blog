@@ -8,6 +8,17 @@
   "engines": {
     "node": ">= 11"
   },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "@11ty/eleventy-img": "^7.0.0",
+    "@11ty/eleventy-navigation": "^1.0.5",
+    "@11ty/eleventy-plugin-rss": "^3.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "@zachleat/heading-anchors": "^1.0.5",
+    "luxon": "^3.7.2",
+    "prismjs": "^1.30.0",
+    "zod": "^4.5.4"
+  },
   "devDependencies": {
     "eslint": "^9.39.5",
     "neostandard": "^0.13.0",
@@ -40,7 +51,7 @@
     "new-post": "make new-post",
     "grep": "node ./_bin/grepPosts.js",
     "grep:high": "grep -rn '{% highlight' _posts",
-    "grep:elem": "grep -rn --exclude-dir=_site '<my-' .",
+    "grep:elem": "grep -rn --exclude-dir=_site '<my-' _posts _pages",
     "jsonlint": "php -r 'print_r(json_decode(file_get_contents(\"package.json\")));'",
     "postinstall": "husky install"
   },
@@ -60,22 +71,5 @@
     "hooks": {
       "pre-commit": "npm test && npm run build"
     }
-  },
-  "semistandard": {
-    "ignore": [
-      "Gruntfile.js",
-      "js/intensedebate"
-    ]
-  },
-  "dependencies": {
-    "@11ty/eleventy": "^3.1.6",
-    "@11ty/eleventy-img": "^7.0.0",
-    "@11ty/eleventy-navigation": "^1.0.5",
-    "@11ty/eleventy-plugin-rss": "^3.0.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
-    "@zachleat/heading-anchors": "^1.0.5",
-    "luxon": "^3.7.2",
-    "prismjs": "^1.30.0",
-    "zod": "^4.4.3"
   }
 }

@@ -1,15 +1,30 @@
 # https://github.com/actions/starter-workflows/blob/main/ci/node.js.yml
 
-name: Node.js CI
+name: Deploy
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ eleventy3 ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ _X_DISABLE_eleventy3 ]
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
   build:
+    name: Build & Deploy
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     runs-on: ubuntu-latest
 
@@ -26,10 +41,23 @@ jobs:
         node-version: ${{ matrix.node-version }}
         # cache: 'npm'
     - run: npm ci
-    #- run: npm run build --if-present
-    - run: npm test
+    - run: npm run build --if-present
+    - run: npm run lint
+    #- run: npm test
     # Ignore non-zero exit codes for 'outdated' and 'audit'.
     - run: npm outdated || true
     - run: npm audit || true
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v4
+      with:
+        # Upload one directory.
+        path: _site/
+        retention-days: 30
+    #- name: Deploy to GitHub Pages
+    #  id: deployment
+    #  uses: actions/deploy-pages@v4
 
 # End.
