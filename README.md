@@ -36,7 +36,7 @@ npm start
 
 
 ---
-© 2009-2022 Nick Freear.
+© 2009-2026 Nick Freear.
 
 *  All content in `_posts`, `_pages` & other Markdown/HTML pages (`*.md`, `*.markdown`, `*.html`) are
    released under a [Creative Commons Attribution-ShareAlike 4.0 International License ![CC by-sa][cc-icon]][cc]
@@ -49,7 +49,7 @@ npm start
 [cc-icon-lg]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 [cc-icon-sm]: https://i.creativecommons.org/l/by-sa/4.0/80x15.png
 [cc-icon]: https://licensebuttons.net/l/by-sa/4.0/80x15.png "Content: Creative Commons License CC-BY-SA"
-[MIT License]: https://nfreear.mit-license.org/2009-2019#!-blog
+[MIT License]: https://nfreear.mit-license.org/2009-2026#!-blog
 [mit-icon]: https://nick.freear.org.uk/badge/mit.svg "Code: MIT License"
 [mit-i0]: https://img.shields.io/badge/license-MIT-blue.svg "(Timeout errors)"
 [Jekyll]: https://jekyllrb.com/ "Powered by Jekyll & GitHub pages"
