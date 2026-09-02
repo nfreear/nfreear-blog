@@ -10,6 +10,7 @@ export default function compatPlugin (eleventyConfig) {
    */
   eleventyConfig.addLayoutAlias('default', 'layouts/base.njk');
   eleventyConfig.addLayoutAlias('page', 'layouts/base.njk');
+  eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
 
   /**
    * Fix date parsing.

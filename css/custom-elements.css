@@ -61,3 +61,39 @@ icon-link {
     min-width: 10rem;
   }
 }
+
+my-tag-cloud {
+  li {
+    line-height: 1.75;
+  }
+
+  [data-count = "0"] {
+    display: none;
+  }
+
+  &[data-active = "true"] {
+    [data-log = "0"] {
+      display: none;
+    }
+
+    [data-log] {
+      * {
+        font-size: calc(1.7rem * var(--my-log));
+        transition: all .5s;
+      }
+    }
+  }
+
+  [data-count] {
+    &::after {
+      color: var(--color-gray-50);
+      content: ' (' attr(data-count) ' posts)';
+      font-size: small;
+    }
+  }
+
+  &::part(label) {
+    float: right;
+    padding: .5rem 0;
+  }
+}

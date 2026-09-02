@@ -12,9 +12,7 @@
 
 ## Nick Freear's blog
 
-Experimental!
-
-I'm re-developing my blog, using [Jekyll][] and [GitHub pages][].
+I'm re-developing my blog, using [Eleventy][] (<s>[Jekyll][]</s>) and [GitHub pages][].
 
 *  [nick.freear.org.uk][]
 * (<https://nfreear.github.io>)
@@ -52,6 +50,8 @@ npm start
 [MIT License]: https://nfreear.mit-license.org/2009-2026#!-blog
 [mit-icon]: https://nick.freear.org.uk/badge/mit.svg "Code: MIT License"
 [mit-i0]: https://img.shields.io/badge/license-MIT-blue.svg "(Timeout errors)"
+[eleventy]: https://www.11ty.dev/
+[base]: https://github.com/11ty/eleventy-base-blog
 [Jekyll]: https://jekyllrb.com/ "Powered by Jekyll & GitHub pages"
 [jekyll-icon]: https://nick.freear.org.uk/badge/by-jekyll.svg
 [jekyll-i0]: https://img.shields.io/badge/powered_by-Jekyll-ca0303.svg#!-j-red

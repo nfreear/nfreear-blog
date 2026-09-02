@@ -1,8 +1,14 @@
 <h1>Tags</h1>
 
+<my-tag-cloud>
 <ul>
 {% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
 	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+	<li><a href="{{ tagUrl }}" data-tag="{{ tag | slugify }}" class="post-tag">{{ tag }}</a></li>
 {% endfor %}
 </ul>
+
+<script type="application/json" eleventy:ignore>
+{% tagstat %}
+</script>
+</my-tag-cloud>

@@ -1,0 +1,23 @@
+<my-site-counter gcid="ndf812"></my-site-counter>
+
+<!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->
+<script type="module" src="{% getBundleFileUrl "js" %}"></script>
+
+<script type="importmap" eleventy:ignore>
+{
+  "imports": {
+    "ndf-elements/i": "https://nfreear.github.io/elements/i.js",
+    "ndf-elements/blog": "https://esm.sh/gh/nfreear/elements/blog.js"
+  }
+}
+</script>
+
+<script type="module" eleventy:ignore>
+  import * as MOD from 'ndf-elements/blog';
+
+  MOD.defineMyElements(MOD);
+
+  console.assert(customElements.get('my-tag-cloud'), 'Missing my-tag-cloud');
+</script>
+
+<style>{% include "css/custom-elements.css" %}</style>

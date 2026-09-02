@@ -87,8 +87,6 @@ export default async function (eleventyConfig) {
     },
   });
 
-  eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
-
   eleventyConfig.addPlugin(blogPluginCollection);
 
   // Filters
